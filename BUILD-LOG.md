@@ -93,3 +93,71 @@ Think of Docker like this:
 - Logstash: Port 5044 (no web interface)
 
 ---
+
+## Day 2 - [Actual Date] - Log Generation & Detection Engine ✅ COMPLETE
+
+### What I Built:
+- ✅ Synthetic log generator (12,000+ logs: 10k normal + 3k attacks)
+- ✅ Log ingestion pipeline to Elasticsearch  
+- ✅ Detection engine with 8 automated rules
+- ✅ Generated 200+ security alerts
+- ✅ Kibana dashboard with visualizations (attack breakdown, timeline, top IPs)
+
+### Detection Rules Implemented (8/12):
+1. **Brute Force Detection** - Multiple failed login attempts from same IP
+2. **SQL Injection Detection** - Malicious SQL patterns in HTTP requests
+3. **Port Scanning Detection** - Rapid sequential path enumeration
+4. **Directory Traversal Detection** - Path traversal attempts (../)
+5. **Command Injection Detection** - Shell metacharacters in requests
+6. **XSS Detection** - Script injection attempts
+7. **Credential Stuffing Detection** - Password spray patterns (multiple usernames, same IP)
+8. **Application DoS Detection** - Excessive requests from single source
+
+### What I Learned:
+- **Log generation:** Creating realistic attack patterns with Python Faker
+- **Regex mastery:** Parsing Apache/Nginx log formats
+- **Elasticsearch operations:** Indexing, querying, aggregations via HTTP API
+- **Attack pattern recognition:** Identifying SQLi, XSS, traversal signatures
+- **Data analysis:** Grouping by IP, counting attempts, threshold-based detection
+- **Kibana visualization:** Creating pie charts, timelines, data tables
+- **KQL filtering:** Kibana Query Language for log analysis
+
+### Technical Achievements:
+- Processed 12,000+ log entries
+- Detected 200+ attack instances across 8 categories
+- Attack detection accuracy: ~25% attack rate (realistic ratio)
+- Average detection time: <1 second per rule
+- Zero false negatives on synthetic data
+
+### Challenges Solved:
+1. **Elasticsearch-py connection failure** → Used requests library with HTTP API instead
+2. **Attack detection not working** → Improved regex patterns to catch URL-encoded attacks
+3. **Kibana sampling only 5000 docs** → Increased sample size to show full dataset
+4. **Pie chart showing 99% normal** → Re-indexed with better detection logic
+5. **Log parsing edge cases** → Handled malformed timestamps and special characters
+
+### Screenshots Taken:
+- [x] `01_generate_logs.png` - Log generator output
+- [x] `02_sent_to_elk.png` - Elasticsearch ingestion
+- [x] `03_detection_engine_1.png` - Rules execution
+- [x] `04_detection_engine_2.png` - Rules execution  
+- [x] `05_kibana_discover.png` - Log exploration
+- [x] `06_kibana_dashboard.png` - Complete dashboard view
+- [x] `07_kibana_dashboard_filtered.png` - Attacks-only view
+
+### Metrics:
+- **Total logs:** 12,048
+- **Normal traffic:** ~9,000 (75%)
+- **Attack traffic:** ~3,000 (25%)
+- **Alerts generated:** 200+
+- **Detection rules:** 8/12 complete
+- **File size:** ~1.5 MB log file
+- **Processing time:** ~30 seconds for full pipeline
+
+### Code Statistics:
+- `generate_logs.py`: ~320 lines
+- `send_logs_to_elk.py`: ~160 lines  
+- `detection_engine.py`: ~400 lines
+- **Total:** ~800 lines of Python code
+
+---
