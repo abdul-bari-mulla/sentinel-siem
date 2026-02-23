@@ -256,6 +256,60 @@ def generate_dos_log():
     
     return logs
 
+def generate_suspicious_file_upload_log():
+    """Generate suspicious file upload attempts (web shells)"""
+    ip = fake.ipv4()
+    timestamp = generate_timestamp(
+        datetime.now() - timedelta(hours=2),
+        datetime.now()
+    )
+    
+    # Suspicious file extensions
+    suspicious_files = [
+        "shell.php",
+        "backdoor.jsp",
+        "cmd.aspx",
+        "webshell.php",
+        "c99.php",
+        "r57.php",
+        "exploit.php",
+        "upload.php.txt"  # Double extension trick
+    ]
+    
+    filename = random.choice(suspicious_files)
+    path = f"/upload?file={filename}"
+    status = random.choice([200, 403])  # Sometimes blocked
+    user_agent = random.choice(USER_AGENTS["scanner"])
+    
+    log = f'{ip} - - [{timestamp.strftime("%d/%b/%Y:%H:%M:%S +0000")}] "POST {path} HTTP/1.1" {status} 1234 "-" "{user_agent}"'
+    return log
+
+def generate_privilege_escalation_log():
+    """Generate privilege escalation attempts (unauthorized admin access)"""
+    ip = fake.ipv4()
+    timestamp = generate_timestamp(
+        datetime.now() - timedelta(hours=3),
+        datetime.now()
+    )
+    
+    # Trying to access admin functions without proper auth
+    admin_endpoints = [
+        "/admin/users/delete",
+        "/admin/config/edit",
+        "/api/admin/create_user",
+        "/admin/permissions/modify",
+        "/admin/system/restart",
+        "/wp-admin/user-new.php",
+        "/admin/database/export"
+    ]
+    
+    path = random.choice(admin_endpoints)
+    status = random.choice([401, 403])  # Unauthorized/Forbidden
+    user_agent = random.choice(USER_AGENTS["normal"])
+    
+    log = f'{ip} - - [{timestamp.strftime("%d/%b/%Y:%H:%M:%S +0000")}] "GET {path} HTTP/1.1" {status} 567 "-" "{user_agent}"'
+    return log
+
 def main():
     print("[*] Sentinel Log Generator Starting...")
     print(f"[*] Generating {NUM_NORMAL_LOGS} normal logs...")
@@ -279,7 +333,9 @@ def main():
         "Command Injection": 250,
         "Port Scanning": 200,
         "Credential Stuffing": 150,
-        "DoS": 100
+        "DoS": 100,
+        "File Upload": 200,        # NEW
+        "Privilege Escalation": 250  # NEW
     }
     
     for attack, count in attack_types.items():
@@ -302,6 +358,10 @@ def main():
                 all_logs.extend(generate_credential_stuffing_log())
             elif attack == "DoS":
                 all_logs.extend(generate_dos_log())
+            elif attack == "File Upload":
+                all_logs.append(generate_suspicious_file_upload_log())
+            elif attack == "Privilege Escalation":
+                all_logs.append(generate_privilege_escalation_log())
     
     # Shuffle to mix normal and attack logs
     random.shuffle(all_logs)
