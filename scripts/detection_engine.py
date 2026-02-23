@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 
 ES_HOST = "http://localhost:9200"
-INDEX_NAME = "sentinel-logs"
+INDEX_NAME = "web-logs"
 
 class DetectionEngine:
     def __init__(self):
@@ -363,7 +363,168 @@ class DetectionEngine:
         
         print(f"  [+] Found {alerts_found} potential DoS sources")
         return alerts_found
+
+    # RULE 9: User-Agent Anomaly Detection
+    def detect_user_agent_anomalies(self):
+        """Detect security scanners and bots via User-Agent"""
+        print("[*] Running Rule 9: User-Agent Anomaly Detection...")
+        
+        query = {
+            "size": 10000,
+            "query": {
+                "term": {"attack_type.keyword": "scanner_activity"}
+            }
+        }
+        
+        logs = self.query_logs(query)
+        
+        # Group by IP and User-Agent
+        scanners = defaultdict(lambda: {'user_agents': set(), 'count': 0})
+        
+        for log in logs:
+            ip = log['source_ip']
+            ua = log['user_agent']
+            scanners[ip]['user_agents'].add(ua)
+            scanners[ip]['count'] += 1
+        
+        alerts_found = 0
+        for ip, data in scanners.items():
+            alert = self.create_alert(
+                rule_name="Security Scanner Detected",
+                severity="MEDIUM",
+                description=f"Security scanning tools detected from {ip}",
+                evidence={
+                    'source_ip': ip,
+                    'request_count': data['count'],
+                    'scanner_tools': list(data['user_agents'])
+                }
+            )
+            alerts_found += 1
+            print(f"  [!] ALERT: Scanner detected from {ip} (Tools: {', '.join(list(data['user_agents'])[:2])})")
+        
+        print(f"  [+] Found {alerts_found} scanning sources")
+        return alerts_found
     
+    # RULE 10: Geographic Anomaly Detection
+    def detect_geographic_anomalies(self):
+        """Detect attacks from unusual geographic locations"""
+        print("[*] Running Rule 10: Geographic Anomaly Detection...")
+        
+        # For this demo, we'll flag specific high-risk IP ranges
+        # In production, you'd use GeoIP database
+        
+        query = {
+            "size": 10000,
+            "query": {
+                "term": {"is_attack": True}
+            }
+        }
+        
+        logs = self.query_logs(query)
+        
+        # Group attacks by country/region (simulated with IP ranges)
+        ip_attacks = defaultdict(list)
+        
+        for log in logs:
+            ip = log['source_ip']
+            # Simulate: IPs starting with certain octets = different countries
+            first_octet = int(ip.split('.')[0])
+            
+            # Flag suspicious ranges (simulation)
+            if first_octet in [41, 117, 141, 195]:  # Example "high-risk" ranges
+                ip_attacks[ip].append(log)
+        
+        alerts_found = 0
+        for ip, attacks in ip_attacks.items():
+            if len(attacks) >= 3:  # Multiple attacks from suspicious region
+                alert = self.create_alert(
+                    rule_name="Geographic Anomaly",
+                    severity="LOW",
+                    description=f"Multiple attacks from suspicious geographic region: {ip}",
+                    evidence={
+                        'source_ip': ip,
+                        'attack_count': len(attacks),
+                        'attack_types': list(set([a['attack_type'] for a in attacks]))
+                    }
+                )
+                alerts_found += 1
+                print(f"  [!] ALERT: Geo anomaly from {ip} ({len(attacks)} attacks)")
+        
+        print(f"  [+] Found {alerts_found} geographic anomalies")
+        return alerts_found
+    
+    # RULE 11: Privilege Escalation Detection
+    def detect_privilege_escalation(self):
+        """Detect unauthorized admin access attempts"""
+        print("[*] Running Rule 11: Privilege Escalation Detection...")
+        
+        query = {
+            "size": 10000,
+            "query": {
+                "term": {"attack_type.keyword": "privilege_escalation"}
+            }
+        }
+        
+        logs = self.query_logs(query)
+        
+        ip_attempts = defaultdict(list)
+        for log in logs:
+            ip_attempts[log['source_ip']].append(log)
+        
+        alerts_found = 0
+        for ip, attempts in ip_attempts.items():
+            alert = self.create_alert(
+                rule_name="Privilege Escalation Attempt",
+                severity="CRITICAL",
+                description=f"Unauthorized admin access attempts from {ip}",
+                evidence={
+                    'source_ip': ip,
+                    'attempt_count': len(attempts),
+                    'targeted_endpoints': [a['request_path'] for a in attempts[:5]]
+                }
+            )
+            alerts_found += 1
+            print(f"  [!] ALERT: Privilege escalation from {ip} ({len(attempts)} attempts)")
+        
+        print(f"  [+] Found {alerts_found} privilege escalation attempts")
+        return alerts_found
+    
+    # RULE 12: Suspicious File Upload Detection
+    def detect_suspicious_file_uploads(self):
+        """Detect web shell and malicious file uploads"""
+        print("[*] Running Rule 12: Suspicious File Upload Detection...")
+        
+        query = {
+            "size": 10000,
+            "query": {
+                "term": {"attack_type.keyword": "file_upload"}
+            }
+        }
+        
+        logs = self.query_logs(query)
+        
+        ip_uploads = defaultdict(list)
+        for log in logs:
+            ip_uploads[log['source_ip']].append(log)
+        
+        alerts_found = 0
+        for ip, uploads in ip_uploads.items():
+            alert = self.create_alert(
+                rule_name="Suspicious File Upload",
+                severity="CRITICAL",
+                description=f"Malicious file upload attempts from {ip}",
+                evidence={
+                    'source_ip': ip,
+                    'upload_count': len(uploads),
+                    'suspicious_files': [u['request_path'] for u in uploads[:5]]
+                }
+            )
+            alerts_found += 1
+            print(f"  [!] ALERT: Suspicious uploads from {ip} ({len(uploads)} files)")
+        
+        print(f"  [+] Found {alerts_found} suspicious upload sources")
+        return alerts_found
+
     def run_all_rules(self):
         """Run all detection rules"""
         print("\n" + "="*60)
