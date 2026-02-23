@@ -9,7 +9,7 @@ from datetime import datetime
 import re
 
 ES_HOST = "http://localhost:9200"
-INDEX_NAME = "sentinel-logs"
+INDEX_NAME = "web-logs"
 LOG_FILE = "logs/web_access.log"
 
 LOG_PATTERN = re.compile(
@@ -34,27 +34,35 @@ def parse_log_line(line):
     ua_lower = data['user_agent'].lower()
     attack_type = 'normal'
     
-    # SQL Injection - check for common SQL patterns
+    # SQL Injection
     if any(p in path for p in ["'", '"']) or any(p in path_lower for p in ["union", "select", "drop", "insert", "--", "/*", "or+1=1", "or%201=1"]):
         attack_type = 'sql_injection'
     
-    # XSS - check for script tags and javascript
+    # XSS
     elif any(p in path_lower for p in ["<script", "javascript:", "onerror", "onload", "<iframe", "<svg", "alert(", "alert%28"]):
         attack_type = 'xss'
     
-    # Directory Traversal - check for ../ patterns
+    # Directory Traversal
     elif '../' in path or '..\\'  in path or '..../' in path or 'etc/passwd' in path_lower or 'etc%2fpasswd' in path_lower or 'windows' in path_lower:
         attack_type = 'directory_traversal'
     
-    # Command Injection - check for shell characters
+    # Command Injection
     elif any(p in path for p in [';', '|', '&&']) or any(p in path_lower for p in ['whoami', 'cat+', 'ls+', 'rm+', 'wget', 'curl']):
         attack_type = 'command_injection'
     
-    # Scanner Detection - check user agent
+    # Suspicious File Upload
+    elif 'upload' in path_lower and any(ext in path_lower for ext in ['.php', '.jsp', '.aspx', 'shell', 'backdoor', 'webshell', 'c99', 'r57']):
+        attack_type = 'file_upload'
+    
+    # Privilege Escalation 
+    elif any(p in path_lower for p in ['/admin/users', '/admin/config', '/admin/permissions', '/admin/database', '/admin/system', 'user-new.php']):
+        attack_type = 'privilege_escalation'
+    
+    # Scanner Detection (User-Agent based)
     elif any(s in ua_lower for s in ['nikto', 'sqlmap', 'nmap', 'wpscan', 'python-requests']):
         attack_type = 'scanner_activity'
     
-    # Admin Probe - check for admin paths
+    # Admin Probe
     elif any(a in path_lower for a in ['/admin', '/phpmyadmin', '/wp-admin', '/administrator']):
         attack_type = 'admin_probe'
     
@@ -63,7 +71,7 @@ def parse_log_line(line):
         'source_ip': data['ip'],
         'user': data['user'],
         'http_method': data['method'],
-        'request_path': path,  # Keep original for visibility
+        'request_path': path,
         'http_status': int(data['status']),
         'response_size': int(data['size']),
         'referrer': data['referrer'],
@@ -74,6 +82,7 @@ def parse_log_line(line):
     }
     
     return doc
+
 def main():
     print("[*] Sentinel Simple Log Shipper Starting...")
     
